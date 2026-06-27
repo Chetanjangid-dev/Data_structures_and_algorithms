@@ -1,32 +1,32 @@
+class pair{
+    int depth;
+    TreeNode lca;
+    pair(TreeNode lca,int depth){
+        this.depth=depth;
+        this.lca=lca;
 
-class Solution {
-    TreeNode ans=null;
-    public int maxdepth(TreeNode root){
-         if(root==null){
-            return 0;
-         }
-         return 1+Math.max(maxdepth(root.left),maxdepth(root.right));
     }
-    public void traverse(TreeNode root){
+}
+
+class Solution {  
+    public  pair  findlca(TreeNode  root ){
     if (root==null){
-        return ;
+        return new pair(null,0);
     }
-    //max depth of left and right
-    int left=maxdepth(root.left);
-    int right=maxdepth(root.right);
-    if(left==right && ans==null){
-        ans=root;
-        return;
+    pair left=findlca(root.left);
+    pair right=findlca(root.right);;
+    if (left.depth==right.depth){
+         return new pair(root,left.depth+1);
     }
-    if(left>right){
-        traverse(root.left);
+    if(left.depth>right.depth){
+        return new pair(left.lca,left.depth+1);
     }
-    if(right>left){
-       traverse(root.right);
+    else{
+        return new pair(right.lca,right.depth+1);
     }
-    }
+    }   
     public TreeNode lcaDeepestLeaves(TreeNode root) {
-     traverse(root);
-     return ans;  
+       if (root==null){return null;}
+       return findlca(root).lca;
     }
 }
