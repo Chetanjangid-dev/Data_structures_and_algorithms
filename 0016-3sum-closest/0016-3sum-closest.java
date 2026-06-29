@@ -24,10 +24,18 @@ class Solution {
        }
        else if(total<target){
         first+=1;
+        while(first>0 && first<second && nums[first-1]==nums[first]){
+            first+=1;
+        }
        }
        else{
         second-=1;
+        while(second<nums.length-1 && first<second && nums[second+1]==nums[second]){
+           second-=1;
         }
+
+        }
+
       }
     }
       
