@@ -13,9 +13,8 @@ class Solution {
       first=i+1;
       second=nums.length-1;
       while(first<second){
-       
+     
        int total=nums[i]+nums[first]+nums[second];
-
        if(total==target){
         return total;
        }
@@ -29,14 +28,9 @@ class Solution {
        else{
         second-=1;
         }
-    //    while(first>0 &&first<second && nums[first-1]==nums[first]){
-    //      first+=1;
-    //    }
-    //    while( second < nums.length-1 && second>first && nums[second]==nums[second+1]){
-    //     second-=1;
+      }
     }
       
-    }
     return ans;
     }
 }
