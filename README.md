@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0001-two-sum) |
+| [0016-3sum-closest](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0016-3sum-closest) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -56,4 +57,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+## Two Pointers
+|  |
+| ------- |
+| [0016-3sum-closest](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0016-3sum-closest) |
+## Sorting
+|  |
+| ------- |
+| [0016-3sum-closest](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0016-3sum-closest) |
 <!---LeetCode Topics End-->
