@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0349-intersection-of-two-arrays) |
@@ -88,4 +89,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0189-rotate-array) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
