@@ -1,43 +1,23 @@
-import java.util.Arrays;
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
-      Arrays.sort(nums1);
-      Arrays.sort(nums2);
-      ArrayList<Integer> ans=  new ArrayList<>();
-      int first=0;
-      int second=first;     
-      while(first<nums1.length && second<nums2.length){
-        if(nums1[first]==nums2[second]){
-        ans.add(nums1[first]);
-        first+=1;
-        second+=1;
-        while( first>0 && first<nums1.length && nums1[first]==nums1[first-1]){
-           first+=1;
+     Set<Integer> set1 = new HashSet<>();
+     Set<Integer> set2 = new HashSet<>();
+    List<Integer> res=new ArrayList<>();
+    for(int i=0;i<nums1.length;i++){
+        set1.add(nums1[i]);
+    }//n time and n space 
+    for(int i=0;i<nums2.length;i++){
+        set2.add(nums2[i]);
+    }  // n time and n space
+    for(int x: set1){
+        if(set2.contains(x)){
+         res.add(x);
         }
-        while( second>0 && second <nums2.length && nums2[second]==nums2[second-1]){
-           second+=1;
-        }
-        }
-        else if (nums1[first]<nums2[second]){
-            first+=1;
-         while( first >0 && first<nums1.length && nums1[first]==nums1[first-1]){
-           first+=1;
-        }
-        }
-        else{
-            second+=1;
-            while( second>0 && second <nums2.length && nums2[second]==nums2[second-1]){
-           second+=1;
-        }
-        }
-      }
-     
-    // System.out.println(ans);
-     int[] Ans=new int[ans.size()];
-     for(int i=0;i<ans.size();i++){
-        Ans[i]=ans.get(i);
-     }
-     return Ans ;
-
+    }
+    int[] arr=new int[res.size()];
+    for(int i=0;i<res.size();i++){
+        arr[i]=res.get(i);
+    }
+    return arr;
     }
 }
