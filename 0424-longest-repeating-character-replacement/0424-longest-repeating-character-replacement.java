@@ -18,7 +18,7 @@ class Solution {
             while(first<=second && ( second-first+1 )- hash_max > k  ){
                
                 map.put(  s.charAt(first) ,map.get(s.charAt(first))-1  );
-                 hash_max=Math.max(map.get(s.charAt(first)) , hash_max);              
+                 //hash_max=Math.max(map.get(s.charAt(first)) , hash_max);              
                 if(map.get(s.charAt(first))==0 ){
                     map.remove(s.charAt(first));
                  }
