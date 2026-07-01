@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0152-maximum-product-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0152-maximum-product-subarray) |
 | [0189-rotate-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0189-rotate-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0283-move-zeroes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0283-move-zeroes) |
@@ -164,4 +165,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0053-maximum-subarray) |
+| [0152-maximum-product-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0152-maximum-product-subarray) |
 <!---LeetCode Topics End-->
