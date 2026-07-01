@@ -4,13 +4,7 @@ class Solution {
      int second=first;
      int sum=0;
      int cs=0;
-     for(int i=0;i<nums.length;i++){
-       cs+=nums[i];
-     }
-     if(cs<target){
-        return 0;
-     }
-     int min = nums.length;
+      int min = Integer.MAX_VALUE;
      while(first<=second && second<nums.length){
        sum+=nums[second];
        while(first<=second && sum>=target){
@@ -19,6 +13,9 @@ class Solution {
          first+=1;
        }
        second+=1;
+     }
+     if(min== Integer.MAX_VALUE){
+        return 0;
      }
      return min;
     }
