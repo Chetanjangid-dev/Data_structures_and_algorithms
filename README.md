@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1004-max-consecutive-ones-iii) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -166,4 +167,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0053-maximum-subarray) |
 | [0152-maximum-product-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0152-maximum-product-subarray) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 <!---LeetCode Topics End-->
