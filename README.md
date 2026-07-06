@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1004-max-consecutive-ones-iii) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
+| [2226-maximum-candies-allocated-to-k-children](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2226-maximum-candies-allocated-to-k-children) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1004-max-consecutive-ones-iii) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
+| [2226-maximum-candies-allocated-to-k-children](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2226-maximum-candies-allocated-to-k-children) |
 ## Binary Tree
 |  |
 | ------- |
