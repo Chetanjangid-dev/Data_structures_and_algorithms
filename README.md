@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0724-find-pivot-index) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0875-koko-eating-bananas](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0875-koko-eating-bananas) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0918-maximum-sum-circular-subarray) |
 | [0930-binary-subarrays-with-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0974-subarray-sums-divisible-by-k) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0875-koko-eating-bananas](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1004-max-consecutive-ones-iii) |
 ## Binary Tree
 |  |
