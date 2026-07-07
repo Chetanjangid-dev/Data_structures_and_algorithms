@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0875-koko-eating-bananas) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0918-maximum-sum-circular-subarray) |
 | [0930-binary-subarrays-with-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0930-binary-subarrays-with-sum) |
+| [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0986-interval-list-intersections](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0986-interval-list-intersections) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0992-subarrays-with-k-different-integers) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0918-maximum-sum-circular-subarray) |
+| [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 ## Tree
 |  |
 | ------- |
@@ -178,12 +180,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0692-top-k-frequent-words](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0692-top-k-frequent-words) |
+| [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 ## Math
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0202-happy-number) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+| [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 ## String
 |  |
 | ------- |
@@ -285,11 +289,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0692-top-k-frequent-words](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0692-top-k-frequent-words) |
+| [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -299,4 +305,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0692-top-k-frequent-words) |
+## Geometry
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
