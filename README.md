@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0724-find-pivot-index) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0875-koko-eating-bananas](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0875-koko-eating-bananas) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0918-maximum-sum-circular-subarray) |
 | [0930-binary-subarrays-with-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0930-binary-subarrays-with-sum) |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0410-split-array-largest-sum) |
 | [0621-task-scheduler](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0871-minimum-number-of-refueling-stops) |
 ## Sliding Window
 |  |
 | ------- |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0053-maximum-subarray) |
 | [0152-maximum-product-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0410-split-array-largest-sum) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0918-maximum-sum-circular-subarray) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 ## Queue
@@ -312,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1046-last-stone-weight) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
