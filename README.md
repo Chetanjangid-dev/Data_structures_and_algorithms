@@ -221,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0131-palindrome-partitioning) |
 | [0383-ransom-note](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0409-longest-palindrome) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0053-maximum-subarray) |
+| [0131-palindrome-partitioning](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0410-split-array-largest-sum) |
 | [0509-fibonacci-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0509-fibonacci-number) |
@@ -380,4 +382,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0046-permutations) |
+| [0131-palindrome-partitioning](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->
