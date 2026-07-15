@@ -163,12 +163,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0547-number-of-provinces) |
+| [0785-is-graph-bipartite](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0785-is-graph-bipartite) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0547-number-of-provinces) |
+| [0785-is-graph-bipartite](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0785-is-graph-bipartite) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## Two Pointers
 |  |
@@ -396,8 +398,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0547-number-of-provinces) |
+| [0785-is-graph-bipartite](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0785-is-graph-bipartite) |
 ## Graph Theory
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0547-number-of-provinces) |
+| [0785-is-graph-bipartite](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0785-is-graph-bipartite) |
 <!---LeetCode Topics End-->
