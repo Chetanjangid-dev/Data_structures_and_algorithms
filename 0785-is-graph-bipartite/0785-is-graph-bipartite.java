@@ -2,7 +2,7 @@ class Solution {
     int node;
     int[] visited;
     Queue<Integer> q ;
-    public void bfs(int[][] graph){
+    public boolean bfs(int[][] graph){
          while(!q.isEmpty()){
           node=q.poll();
           for(int i=0;i<graph[node].length;i++){
@@ -15,9 +15,15 @@ class Solution {
                 }
                 q.offer(graph[node][i]);
             }
+            else {
+                if(visited[graph[node][i]]==visited[node]){
+                    return false;
+                }
+            }
           }
         } 
-    }
+        return true;
+      }
     public boolean isBipartite(int[][] graph) {
         visited=new int[graph.length];
         q = new ArrayDeque<>();
@@ -25,18 +31,11 @@ class Solution {
           if(visited[i]==0){
           q.offer(i);//intiail
           visited[i]=1;// 0 shows not vivted while 1 shows visted and red and 2- shpws yellow and visted     
-          bfs(graph);
+          if(!bfs(graph)){
+              return false;
           }
-        }
-     // now check for bipartitiness
-     for(int i=0;i<graph.length;i++){
-        for(int j=0;j<graph[i].length;j++){
-            if(visited[graph[i][j]]==visited[i]){
-               System.out.println(visited[graph[i][j]] + " " + visited[i]);
-                return false;
-            }
-        }
-     }
+          }
+        }    
      return true;
     }
 }
