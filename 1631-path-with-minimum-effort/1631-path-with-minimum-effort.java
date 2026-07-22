@@ -17,6 +17,9 @@ class Solution {
             row=pair[0];
             col=pair[1];
             effort = pair[2];
+            if(row == heights.length-1 &&
+               col == heights[0].length-1)
+               return effort;
             if(effort>efforts[row][col]){continue;}                
                  // up
                 if(row - 1 >= 0 && Math.max(Math.abs(heights[row-1][col] - heights[row][col]), effort) < efforts[row-1][col]) {
