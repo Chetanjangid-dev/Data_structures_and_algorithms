@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0724-find-pivot-index) |
+| [0778-swim-in-rising-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0778-swim-in-rising-water) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0875-koko-eating-bananas](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0875-koko-eating-bananas) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0704-binary-search](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0713-subarray-product-less-than-k) |
+| [0778-swim-in-rising-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0778-swim-in-rising-water) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1004-max-consecutive-ones-iii) |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0785-is-graph-bipartite) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1631-path-with-minimum-effort](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1631-path-with-minimum-effort) |
@@ -178,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0785-is-graph-bipartite) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1631-path-with-minimum-effort](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1631-path-with-minimum-effort) |
@@ -342,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0778-swim-in-rising-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0778-swim-in-rising-water) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1631-path-with-minimum-effort) |
 ## Heap (Priority Queue)
@@ -358,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0692-top-k-frequent-words) |
 | [0743-network-delay-time](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0743-network-delay-time) |
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
+| [0778-swim-in-rising-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0778-swim-in-rising-water) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1046-last-stone-weight) |
@@ -412,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0547-number-of-provinces) |
+| [0778-swim-in-rising-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0785-is-graph-bipartite) |
 | [1631-path-with-minimum-effort](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
