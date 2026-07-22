@@ -10,7 +10,7 @@ class Solution {
           int s=pair[0];
           int d=pair[1];
           int w=pair[2];
-          if((long)dist[s]+w<(long)temp[d]){
+          if( dist[s] !=  Integer.MAX_VALUE && dist[s]+w<temp[d]){
             temp[d]=dist[s]+w;
           }
         }
