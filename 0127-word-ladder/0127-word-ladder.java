@@ -1,76 +1,41 @@
+class Node {
+    String word;
+    int level;
+    Node(String word, int level) {
+        this.word = word;
+        this.level = level;
+    }
+}
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-       //adjacency
-       HashMap <String,List<String>> adj= new HashMap<>();
-       boolean is_end_in_wl=false;
-       for (String word : wordList) {
-            if (word.equals(endWord))
-                is_end_in_wl = true;
-            adj.put(word, new ArrayList<>());
+        Set<String> dict = new HashSet<>(wordList);
+        dict.add(beginWord);
+        if(!wordList.contains(endWord)){return 0;}
+        String parent,adjacent;
+        Queue<Node> q = new ArrayDeque<>();
+        q.offer(new Node(beginWord, 1));
+        dict.remove(beginWord);
+        while(!q.isEmpty()){
+           Node pair=q.poll();
+           parent=pair.word;
+           int level=pair.level;
+           StringBuilder sb = new StringBuilder(parent);
+           for(int i=0;i<parent.length();i++){
+               char changed=parent.charAt(i);
+               for(int j=97;j<123;j++){
+                  sb.setCharAt(i,(char) j);
+                  adjacent = sb.toString();
+                  if(adjacent.equals(endWord)){
+                    return level+1;
+                  }
+                  if(dict.contains(adjacent)){
+                      q.offer(new Node(adjacent,(level+1)));  
+                      dict.remove(adjacent);                 
+                  }
+               }
+               sb.setCharAt(i,changed);
+           }
         }
-        if (!is_end_in_wl)
-            return 0;
-
-        if (!adj.containsKey(beginWord)) {
-            wordList.add(beginWord);
-            adj.put(beginWord, new ArrayList<>());
-        }
-      // Collections.sort(wordList);
-      for(int i=0;i<wordList.size()-1;i++){
-        for(int j=i+1;j<wordList.size();j++){
-          String u=wordList.get(i);
-          String v= wordList.get(j);
-          if(match(u,v)){
-            adj.get(u).add(v);
-            adj.get(v).add(u);
-          } 
-        }
-       }
-            Set<String> visited = new HashSet<>();
-            Queue<String> q = new ArrayDeque<>();
-
-            q.offer(beginWord);
-            visited.add(beginWord);
-
-            int level = 1;
-
-            while (!q.isEmpty()) {
-
-                int size = q.size();
-
-                for (int i = 0; i < size; i++) {
-                    String parent = q.poll();
-
-                    if (parent.equals(endWord)) {
-                        return level;
-                    }
-
-                    for (String adjacent : adj.get(parent)) {
-                        if (!visited.contains(adjacent)) {
-                            visited.add(adjacent);
-                            q.offer(adjacent);
-                        }
-                    }
-                }
-
-                level++;
-            }
-            return 0;
-          
+        return 0;
     }
-    public boolean match(String word1, String word2) {
-    if (word1.length() != word2.length()) {
-        return false;
-    }
-    int diff = 0;
-    for (int i = 0; i < word1.length(); i++) {
-        if (word1.charAt(i) != word2.charAt(i)) {
-            diff++;
-            if (diff > 1) {
-                return false;
-            }
-        }
-    }
-    return diff == 1;
-}    
 }
