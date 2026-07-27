@@ -1,16 +1,17 @@
 class Solution {
-    HashMap<Integer,Integer> dp =new HashMap<>();
+    int[] dp;
     public int fibonacci(int n ){
       // base condtion
       if(n==0 || n==1){return n;}
-      if(dp.containsKey(n)){
-         return dp.get(n);
+      if(dp[n]!=0){
+         return dp[n];
       }
       int ans= fibonacci(n-1)+fibonacci(n-2);
-      dp.put(n,ans);
+      dp[n]=ans;
       return ans;
     }
     public int fib(int n) {
+       dp=new int[n+1];
        return  fibonacci(n);
     }
 }
