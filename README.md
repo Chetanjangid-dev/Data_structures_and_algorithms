@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0202-happy-number) |
 | [0509-fibonacci-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0509-fibonacci-number) |
@@ -318,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0070-climbing-stairs) |
 | [0131-palindrome-partitioning](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0410-split-array-largest-sum) |
@@ -410,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0509-fibonacci-number) |
 ## Backtracking
 |  |
