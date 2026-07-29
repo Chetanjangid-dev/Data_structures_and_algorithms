@@ -1,30 +1,11 @@
 class Solution {
-    int[] nums;
-    int[] dp;
-    public int choose(int index){
-      if(index==nums.length-1){
-       return nums[index];
-      }
-      if(index>=nums.length){
-        return 0;
-      }
-      if(dp[index]!=-1){
-        return dp[index];
-      }
-      //choose even
-        int curr_choice=nums[index];
-        int even_choice = choose(index+2);
-        int odd_choice = choose(index+3);
-        int ans=curr_choice+Math.max(even_choice,odd_choice);
-        dp[index]=ans;
-        return ans;   
-    }
     public int rob(int[] nums) {
-        this.nums=nums;
-        dp=new int[nums.length];
-        Arrays.fill(dp,-1);
-        if(nums.length==0){return 0;}
-        if(nums.length==1){return nums[0];}
-        return Math.max(choose(0),choose(1)); 
+     int[] dp=new int[nums.length+1];
+     dp[nums.length]=0;//bcz in rec if(i>=nums.lenngth){return 0}//a=yani  agr me bounds ko par kr gya to lgicallly i cn loot 0 money 
+     dp[nums.length-1]=nums[nums.length-1]; // mtlb agr i==nums.length-1 then answr is value at curr index of nums genraalyy agr last index pr hu to me us index pr jo hghr h usi ki money loot skta hu agr take skip me se max le to us index ppr jo value h wo ans hoga
+     for(int i=nums.length-2;i>=0;i--){
+        dp[i]=Math.max((nums[i]+dp[i+2]),dp[i+1]);
+     }
+     return dp[0];
     }
 }
