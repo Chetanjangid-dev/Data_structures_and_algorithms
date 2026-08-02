@@ -1,5 +1,8 @@
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
+        if( text2.length()>text1.length()){
+           return longestCommonSubsequence(text2,text1);
+        }
         int[] dp=new int[text2.length()+1];
         for(int j=0;j<=text2.length();j++){
             dp[j]=0;
