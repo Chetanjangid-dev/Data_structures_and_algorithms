@@ -1,23 +1,20 @@
 class Solution {
     int m,n;
-    int[][] dp;
+    int[] dp;
     public int uniquePaths(int m, int n) {
      this.m=m;
      this.n=n;
-     this.dp=new int[m][n];
-     for(int i=0;i<m;i++){
-        dp[i][n-1]=1;
-     }
-     for(int j=0;j<n;j++){
-        dp[m-1][j]=1;
-     }   
+     this.dp=new int[n];
+     Arrays.fill(dp,1);
+     int[] copy;
      for(int i=m-2;i>=0;i--)
      {
+        copy=dp.clone();
         for(int j=n-2;j>=0;j--)
         {
-         dp[i][j]=dp[i][j+1]+dp[i+1][j];
+         dp[j]=dp[j+1]+copy[j];
         }
      }
-     return dp[0][0];       
+     return dp[0];       
     }
 }
