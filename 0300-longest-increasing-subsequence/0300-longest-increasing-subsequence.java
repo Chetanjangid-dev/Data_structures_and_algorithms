@@ -1,29 +1,20 @@
 class Solution {
     int[] nums;
     int[][] dp;
-    public int rec(int index,int prev){
-        if(index==nums.length){
-            return 0;
-        }
-        if( dp[index][prev+1]!=-1){
-            return dp[index][prev+1];
-        }
-        int take=0;
-        int skip=0;
-        if(prev==-1  ||  nums[prev]<nums[index]){
-           //take 
-           take=1+rec(index+1,index);
-        }
-        skip=rec(index+1,prev);
-        dp[index][prev+1]=Math.max(take,skip);
-        return dp[index][prev+1];
-    }
     public int lengthOfLIS(int[] nums) {
         this.nums=nums;
         dp=new int[nums.length+1][nums.length+2];
-        for(int i=0;i<dp.length;i++){ 
-          Arrays.fill(dp[i],-1);
+        for(int curr=dp.length-2;curr>=0;curr--){ 
+          for(int prev =-1;prev<curr;prev++){
+           int take=0;
+           int skip=0;
+           if(prev==-1 || nums[prev]<nums[curr]){
+             take=1+dp[curr+1][curr+1];
+           }
+           skip=dp[curr+1][prev+1];
+           dp[curr][prev+1]=Math.max(take,skip);
+          }
          }
-        return rec(0,-1);
+        return dp[0][0];
         }
     }
