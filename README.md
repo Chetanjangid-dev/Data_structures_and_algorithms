@@ -260,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1143-longest-common-subsequence](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1189-maximum-number-of-balloons) |
 ## Greedy
 |  |
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0918-maximum-sum-circular-subarray) |
+| [1143-longest-common-subsequence](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1143-longest-common-subsequence) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 ## Queue
 |  |
