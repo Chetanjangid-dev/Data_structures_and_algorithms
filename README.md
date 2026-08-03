@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0130-surrounded-regions) |
 | [0152-maximum-product-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0070-climbing-stairs) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0198-house-robber) |
