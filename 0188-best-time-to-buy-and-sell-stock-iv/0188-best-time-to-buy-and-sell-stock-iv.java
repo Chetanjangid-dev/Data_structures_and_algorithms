@@ -1,35 +1,34 @@
+
 class Solution {
     int[] prices;
     int[][][] dp;
-    public int rec(int index,int buyed,int k){
-        if(k<=0 || index==prices.length){
-            return 0;
-        }
-        //not buyed can choose buy or not
-        int buy=0;
-        int notbuy=0;
-        if(dp[index][buyed][k]!=-1){
-            return dp[index][buyed][k];
-        }
-        if(buyed==0){
-           buy=rec(index+1,1,k)-prices[index];
-           notbuy=rec(index+1,0,k);
-           return  dp[index][buyed][k]=Math.max(buy,notbuy);
-        }
-        else{
-        // sell or not sell
-         return dp[index][buyed][k] = Math.max(prices[index]+rec(index+1,0,k-1),rec(index+1,buyed,k));
-        }
-    }
-    public int maxProfit(int k,int[] prices) {
-        this.prices=prices;
-        dp=new int[prices.length+1][2][k+1];      //dp[index][buy]; 
-        for(int i=0;i<dp.length;i++){
-            for(int j=0;j<dp[i].length;j++){
-                Arrays.fill(dp[i][j],-1);
+    public int maxProfit(int  k ,int[] prices) {
+        int m,n;
+        m=prices.length;
+        n=2;
+        dp=new int[m+1][n][k+1];      //dp[index][buy]; 
+        for(int i=0;i<n;i++){
+            for(int j=0;j<=k;j++){
+                dp[m][i][j]=0;
             }
         }
-        return rec(0,0,k);
-
+        for(int i=0;i<=m;i++){
+            for(int j= 0;j<n;j++){
+                dp[i][j][0]=0;
+            }
+        }
+        for(int index=dp.length-2;index>=0;index--){
+            for(int buyed = 0; buyed<=1;buyed++){
+               for(int j=1;j<=k;j++){
+                if(buyed==0){
+                  dp[index][buyed][j]=Math.max(dp[index+1][1][j]-prices[index],dp[index+1][0][j]);
+                }   
+                else{
+                   dp[index][1][j]=Math.max(prices[index]+dp[index+1][0][j-1],dp[index+1][1][j]);
+                } 
+               }           
+            }
+        }
+        return dp[0][0][k];
     }
 }
