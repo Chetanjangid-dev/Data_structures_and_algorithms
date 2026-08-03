@@ -1,22 +1,23 @@
 class Solution {
     int[] prices;
-    int[][] dp;
+    int[] dp;
     public int maxProfit(int[] prices) {
         this.prices=prices;
-        dp=new int[prices.length+1][2];      //dp[index][buy]; 
-        for(int i=0;i<dp.length;i++){
-            Arrays.fill(dp[dp.length-1],0);
-        }
-        for(int index=dp.length-2;index>=0;index--){
+        dp=new int[2];      //dp[index][buy]; 
+        dp[0]=0;
+        dp[1]=0;
+        int[] copy;
+        for(int index=prices.length-1;index>=0;index--){
+            copy=dp.clone();
             for(int buyed = 0; buyed<=1;buyed++){
                 if(buyed==0){
-                  dp[index][buyed]=Math.max(dp[index+1][1]-prices[index],dp[index+1][0]);
+                   dp[0]=Math.max((copy[1]-prices[index]),copy[0]);
                 }   
                 else{
-                   dp[index][1]=Math.max(prices[index],dp[index+1][1]);
+                   dp[1]=Math.max(prices[index],copy[1]);
                 }            
             }
         }
-        return dp[0][0];
+        return dp[0];//index=0 by deault and buyed=false
     }
 }
