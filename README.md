@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0046-permutations) |
+| [0049-group-anagrams](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0057-insert-interval) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0016-3sum-closest](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0018-4sum) |
+| [0049-group-anagrams](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0215-kth-largest-element-in-an-array) |
@@ -257,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0022-generate-parentheses) |
+| [0049-group-anagrams](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0127-word-ladder) |
