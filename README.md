@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0525-contiguous-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0621-task-scheduler) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0692-top-k-frequent-words](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0658-find-k-closest-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0930-binary-subarrays-with-sum) |
