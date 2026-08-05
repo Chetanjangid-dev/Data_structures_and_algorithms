@@ -1,8 +1,9 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String,List<String>> map=new HashMap<>();
-        int[] count=new int[26];;
+        int[] count;
          for(int i=0;i<strs.length;i++){
+            count= new int[26];
             for (int j = 0; j < strs[i].length(); j++) {
                 char ch = strs[i].charAt(j);
                 count[ch - 'a']++;
@@ -16,10 +17,7 @@ class Solution {
             }
 
             String key = sb.toString();
-            for(int j=0;j<strs[i].length();j++){
-                char ch=strs[i].charAt(j);
-                count[ch-'a']=0; 
-            }
+          
             if(map.containsKey(key)){
                 List <String> temp= map.get(key);
                 temp.add(strs[i]);
