@@ -7,17 +7,25 @@ class Solution {
             while(search<chars.length && (chars[write]==chars[search]) ) {
                search++;
             }
-            String s;
-            if((search-write)==1){
-               s=chars[write]+"";  
+            chars[startfrom]=chars[write];
+            int n=search-write;
+            startfrom++;
+            if(n>1){
+             while(n!=0){
+                int divisor = 1;
+                while (n / divisor >= 10) {
+                    divisor *= 10;
+                }
+                while (divisor > 0) {
+                    int digit = n / divisor;
+                    chars[startfrom]=(char)('0'+digit);
+                    startfrom++;
+                    n %= divisor;
+                    divisor /= 10;
+                }
+                
+             }
             }
-            else{
-               s=chars[write]+""+(search-write);
-            }
-            for (int i=0;i<s.length();i++){
-                chars[i+startfrom]=s.charAt(i);
-            }
-            startfrom+=s.length();
             write=search;
         }
         return startfrom;
