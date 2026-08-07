@@ -219,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0349-intersection-of-two-arrays](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0349-intersection-of-two-arrays) |
+| [0443-string-compression](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0443-string-compression) |
 | [0658-find-k-closest-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0658-find-k-closest-elements) |
 | [0876-middle-of-the-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0876-middle-of-the-linked-list) |
 | [0986-interval-list-intersections](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0986-interval-list-intersections) |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0443-string-compression](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0443-string-compression) |
 | [0692-top-k-frequent-words](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
