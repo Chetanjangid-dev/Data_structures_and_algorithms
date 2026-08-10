@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0074-search-a-2d-matrix) |
@@ -399,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
@@ -500,4 +502,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0062-unique-paths) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
