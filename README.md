@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0142-linked-list-cycle-ii) |
+| [0143-reorder-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0143-reorder-list) |
 | [0189-rotate-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0283-move-zeroes) |
@@ -343,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0092-reverse-linked-list-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0092-reverse-linked-list-ii) |
 | [0141-linked-list-cycle](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0142-linked-list-cycle-ii) |
+| [0143-reorder-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0876-middle-of-the-linked-list) |
 ## Bit Manipulation
@@ -389,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0020-valid-parentheses) |
+| [0143-reorder-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0143-reorder-list) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Matrix
 |  |
@@ -452,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0206-reverse-linked-list) |
 | [0509-fibonacci-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0509-fibonacci-number) |
 ## Memoization
