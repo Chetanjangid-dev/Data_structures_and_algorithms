@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0057-insert-interval) |
 | [0059-spiral-matrix-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0059-spiral-matrix-ii) |
+| [0073-set-matrix-zeroes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0088-merge-sorted-array) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0041-first-missing-positive](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -407,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0059-spiral-matrix-ii) |
+| [0073-set-matrix-zeroes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
