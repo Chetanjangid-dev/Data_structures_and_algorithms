@@ -1,33 +1,33 @@
 class Solution {
     public int compress(char[] chars) {
-        int search=0;
-        int write=search;
-        int startfrom=0;
-        while(search<chars.length){
-            while(search<chars.length && (chars[write]==chars[search]) ) {
-               search++;
-            }
-            chars[startfrom]=chars[write];
-            int n=search-write;
-            startfrom++;
-            if(n>1){
-             while(n!=0){
-                int divisor = 1;
-                while (n / divisor >= 10) {
-                    divisor *= 10;
-                }
-                while (divisor > 0) {
-                    int digit = n / divisor;
-                    chars[startfrom]=(char)('0'+digit);
-                    startfrom++;
-                    n %= divisor;
-                    divisor /= 10;
-                }
-                
-             }
-            }
-            write=search;
+     int first=0;
+     int second=first;
+     int lastpos=first;
+     while(second<chars.length){
+        while(second < chars.length && chars[second]==chars[first] ){
+            second++;
         }
-        return startfrom;
+        //here second!=first
+        chars[lastpos]=chars[first];
+        lastpos++;
+        int freq = second-first;
+        if(freq>1){
+           int divisor = 1;
+           while (freq / divisor >= 10) {
+               divisor *= 10;
+           }
+           while (divisor > 0) {
+               int digit = freq/ divisor;
+               chars[lastpos]=(char)(digit + '0');
+               lastpos++;
+               freq =freq % divisor;
+               divisor /= 10;
+            } 
+        }
+        first=second;        
+      }
+      return lastpos;
+      //actually thte lastpos-1 is last vldi index but lastps showing the lentght pf valid area
+
     }
 }
