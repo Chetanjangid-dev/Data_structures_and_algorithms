@@ -3,9 +3,8 @@ class Solution {
      int first=0;
      int second=first;
      int sum=0;
-     int cs=0;
-      int min = Integer.MAX_VALUE;
-     while(first<=second && second<nums.length){
+     int min = Integer.MAX_VALUE;
+     while(second<nums.length){
        sum+=nums[second];
        while(first<=second && sum>=target){
          min=Math.min(second-first+1,min);
