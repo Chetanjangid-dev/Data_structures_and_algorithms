@@ -533,4 +533,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0202-happy-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0202-happy-number) |
 | [0457-circular-array-loop](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0457-circular-array-loop) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
