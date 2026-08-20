@@ -1,26 +1,34 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
-    ArrayList<int[]> ans = new ArrayList<>();
-    Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
-    int i=0;
-    while(i<intervals.length){
-        //first merge overlapping intervals
-        int min=intervals[i][0];
-        int max=intervals[i][1];
-        while(i+1<intervals.length && max>=intervals[i+1][0]){   
-       // 
-        max=Math.max(intervals[i+1][1],max);
-        i+=1;
-        }
-        // non overlapping interrvla
-        ans.add(new int[]{min, max});
-        i++;
+     Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
+     int i = 0;
+     int start ;
+     int end;
+     List<List<Integer>> ans =  new ArrayList<>();
+     while(i<intervals.length){
+       start = intervals[i][0];
+       end = intervals[i][1];
+       while(i+1<intervals.length && end >= intervals[i+1][0]){
+          start = Math.min(start,intervals[i+1][0]);
+          end = Math.max(end,intervals[i+1][1]);
+          i++;
+       }
+       List<Integer> temp =  new ArrayList<>();
+       temp.add(start);
+       temp.add(end);
+       ans.add(temp);
+       i++;
+     }
+   
+int[][] arr = new int[ans.size()][];
+
+for (int k = 0; k < ans.size(); k++) {
+    arr[k] = new int[ans.get(k).size()];
+
+    for (int j = 0; j < ans.get(k).size(); j++) {
+        arr[k][j] = ans.get(k).get(j);
     }
-    int[][] arr = new int[ans.size()][2];
-    for(int j=0;j<ans.size();j++){
-        arr[j][0]=ans.get(j)[0];
-        arr[j][1]=ans.get(j)[1];
+}
+     return arr;       
     }
-   return arr;
-  }
 }
