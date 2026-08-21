@@ -7,17 +7,26 @@ class Solution {
          map.put(')','(');
          map.put('}','{');
          map.put(']','[');
-
-         for(int i=0;i<s.length();i++){
-            if(s.charAt(i)=='(' ||  s.charAt(i)=='{'  ||  s.charAt(i)=='['  ){
-                stack.push(s.charAt(i));
+         int n =  s.length();
+         int i = 0;
+         HashSet<Character>  open =  new HashSet<>();
+         open.add('(');
+         open.add('{');
+         open.add('[');
+         while(i < n ){
+            char curr = s.charAt(i);
+            if(stack.isEmpty() || open.contains(curr)){
+                stack.push(curr);
             }
             else{
-                if ( stack.isEmpty()  || stack.peek()!=map.get(s.charAt(i)) ){
+                if(!stack.isEmpty() && map.get(curr) == stack.peek()){
+                    stack.pop();
+                }
+                else{
                     return false;
                 }
-                   stack.pop();
             }
+            i++;
          }
          return stack.size()==0;
     }
