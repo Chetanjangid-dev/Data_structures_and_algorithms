@@ -1,123 +1,175 @@
-import java.util.*;
-class MaxHeap {
-    private ArrayList<ArrayList<Integer>> heap;
-    public MaxHeap(ArrayList<ArrayList<Integer>> list) {
-        this.heap = list;
+class Solution {
+    public int[] topKFrequent(int[] nums, int k) {
+         HashMap<Integer,Integer> freq = new HashMap<>();
+         for(int i = 0 ; i < nums.length;i++){
+            freq.put(nums[i], freq.getOrDefault(nums[i], 0) + 1);
+         } 
+         List<int[]> arr = new ArrayList<>();
+         for(Integer key:freq.keySet()){
+              arr.add(new int[]{(int)key,(int)freq.get(key)});
+         }          
+         two_d_maxheap h =  new two_d_maxheap(arr);
+         int[] ans = new int[k];
+         for(int i =0;i<k;i++){
+                ans[i]=h.extractMax()[0];
+         }
+       return ans;
+
+
+    }
+}
+public class  two_d_maxheap {
+  
+    List<int[]> heap;
+
+    public two_d_maxheap() {
+        heap = new ArrayList<>();
+    }
+
+    public two_d_maxheap(List<int[]> heap) {
+        this.heap = heap;
         buildHeap();
     }
 
-    // O(n)
-    private void buildHeap() {
-        int n = heap.size();
-        for (int i = n / 2 - 1; i >= 0; i--) {
-            heapifyDown(i);
-        }
+    int getParent(int i) {
+        return (i - 1) / 2;
     }
 
-    // O(log n)
-    private void heapifyDown(int i) {
-        int n = heap.size();
-
-        while (true) {
-            int largest = i;
-            int left = 2 * i + 1;
-            int right = 2 * i + 2;
-
-            if (left < n && heap.get(left).get(1) > heap.get(largest).get(1))
-                largest = left;
-
-            if (right < n && heap.get(right).get(1) > heap.get(largest).get(1))
-                largest = right;
-
-            if (largest == i)
-                break;
-
-            Collections.swap(heap, i, largest);
-            i = largest;
-        }
+    int getLeft(int i) {
+        return 2 * i + 1;
     }
 
-    // O(log n)
-    private void heapifyUp(int i) {
+    int getRight(int i) {
+        return 2 * i + 2;
+    }
+
+    void swap(int i, int j) {
+        int[] temp = heap.get(i);
+        heap.set(i, heap.get(j));
+        heap.set(j, temp);
+    }
+
+    void heapifyUp() {
+
+        int i = heap.size() - 1;
+
         while (i > 0) {
-            int parent = (i - 1) / 2;
 
-            if (heap.get(parent).get(1) >= heap.get(i).get(1))
+            int parent = getParent(i);
+
+            // Comparison index 1 ke basis par
+            if (heap.get(parent)[1] >= heap.get(i)[1])
                 break;
 
-            Collections.swap(heap, parent, i);
+            swap(parent, i);
+
             i = parent;
         }
     }
 
-    // O(1)
-    public ArrayList<Integer> peek() {
-        if (heap.isEmpty())
+    void heapifyDown() {
+
+        int i = 0;
+        int limit = heap.size();
+
+        while (true) {
+
+            int largest = i;
+
+            int left = getLeft(i);
+            int right = getRight(i);
+
+            // Index 1 ke basis par comparison
+            if (left < limit &&
+                heap.get(left)[1] > heap.get(largest)[1]) {
+
+                largest = left;
+            }
+
+            if (right < limit &&
+                heap.get(right)[1] > heap.get(largest)[1]) {
+
+                largest = right;
+            }
+
+            if (largest == i)
+                break;
+
+            swap(i, largest);
+
+            i = largest;
+        }
+    }
+
+    void heapifyDown(int i, int limit) {
+
+        while (true) {
+
+            int largest = i;
+
+            int left = getLeft(i);
+            int right = getRight(i);
+
+            if (left < limit &&
+                heap.get(left)[1] > heap.get(largest)[1]) {
+
+                largest = left;
+            }
+
+            if (right < limit &&
+                heap.get(right)[1] > heap.get(largest)[1]) {
+
+                largest = right;
+            }
+
+            if (largest == i)
+                break;
+
+            swap(i, largest);
+
+            i = largest;
+        }
+    }
+
+    public void insert(int[] val) {
+
+        heap.add(val);
+
+        heapifyUp();
+    }
+
+    public int[] extractMax() {
+
+        if (heap.size() == 0)
             return null;
+
+        if (heap.size() == 1)
+            return heap.remove(heap.size() - 1);
+
+        int[] max = heap.get(0);
+
+        int[] last = heap.remove(heap.size() - 1);
+
+        heap.set(0, last);
+
+        heapifyDown();
+
+        return max;
+    }
+
+    void buildHeap() {
+
+        for (int i = heap.size() / 2 - 1; i >= 0; i--) {
+
+            heapifyDown(i, heap.size());
+        }
+    }
+
+    int[] peek() {
         return heap.get(0);
     }
 
-    // O(log n)
-    public ArrayList<Integer> poll() {
-
-        if (heap.isEmpty())
-            return null;
-
-        ArrayList<Integer> ans = heap.get(0);
-
-        Collections.swap(heap, 0, heap.size() - 1);
-        heap.remove(heap.size() - 1);
-
-        if (!heap.isEmpty())
-            heapifyDown(0);
-
-        return ans;
-    }
-
-    // O(log n)
-    public void add(ArrayList<Integer> element) {
-        heap.add(element);
-        heapifyUp(heap.size() - 1);
-    }
-
-    // O(1)
-    public int size() {
+    int size() {
         return heap.size();
-    }
-
-    // O(1)
-    public boolean isEmpty() {
-        return heap.isEmpty();
-    }
-
-    public void printHeap() {
-        System.out.println(heap);
-    }
-}
-class Solution {
-    public int[] topKFrequent(int[] nums, int k) {
-      HashMap<Integer, Integer> map = new HashMap<>();
-      for (int i=0;i<nums.length;i++){
-        if(map.containsKey(nums[i])){
-            map.put(nums[i],map.get(nums[i])+1);
-        }
-        else{
-             map.put(nums[i],1);
-        }
-      }  
-      ArrayList<ArrayList<Integer>> list = new ArrayList<>();
-     for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-        ArrayList<Integer> pair = new ArrayList<>();
-        pair.add(entry.getKey());
-        pair.add(entry.getValue());
-        list.add(pair);
-     }
-     MaxHeap heap = new MaxHeap(list);
-     int[] ans=new int[k];
-     for(int i=0;i<k;i++){
-        ans[i]=(int)heap.poll().get(0);
-     }
-    return ans;
-
     }
 }
