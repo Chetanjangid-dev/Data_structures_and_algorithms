@@ -1,154 +1,187 @@
-import java.util.List;
 class Solution {
     public int lastStoneWeight(int[] stones) {
-         List<Integer> list = new ArrayList<>(Arrays.stream(stones).boxed().toList());
-        MaxHeap heap=new MaxHeap(list);
-        int smash,stone1,stone2;
-        while(heap.size()>2){
-               stone1=heap.remove();
-               stone2=heap.remove();
-               smash=Math.abs(stone1-stone2);
-               if(smash>0){
-                heap.insert(smash);
-               }
-        }
-       if(heap.size()==2){
-        return Math.abs(heap.remove()-heap.remove());
-       }
-       return (int)heap.remove();
-    }
+
+      ArrayList<Integer> list = new ArrayList<>();
+      for(int i=0;i<stones.length;i++){
+        list.add(stones[i]);
+      }
+      MaxHeap h =  new MaxHeap(list);
+      while(h.size()>=2){
+         h.insert(Math.abs(h.extractMax()- h.extractMax()) );
+      }
+      if(h.size()==1) return h.extractMax();
+      return 0;
+     }
 }
 
 
 
+public class MaxHeap {
 
+    ArrayList<Integer> heap;
 
+    public MaxHeap() {
+        heap = new ArrayList<>();
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-class MaxHeap {
-
-    private final List<Integer> heap;
-
-    // Builds a max heap in-place
-    public MaxHeap(List<Integer> list) {
-        this.heap = list;
+    public MaxHeap(ArrayList<Integer> heap) {
+        this.heap = heap;
         buildHeap();
     }
 
-    // O(n)
-    private void buildHeap() {
-        for (int i = heap.size() / 2 - 1; i >= 0; i--) {
-            heapifyDown(i);
-        }
+    int getParent(int i) {
+        return (i - 1) / 2;
     }
 
-    // O(log n)
-    public void insert(int value) {
-        heap.add(value);
-        heapifyUp(heap.size() - 1);
+    int getLeft(int i) {
+        return 2 * i + 1;
     }
 
-    // O(log n)
-    public int remove() {
-        if (heap.isEmpty()) {
-            throw new RuntimeException("Heap is empty");
-        }
-
-        int max = heap.get(0);
-        int last = heap.remove(heap.size() - 1);
-
-        if (!heap.isEmpty()) {
-            heap.set(0, last);
-            heapifyDown(0);
-        }
-
-        return max;
+    int getRight(int i) {
+        return 2 * i + 2;
     }
 
-    // O(1)
-    public int peek() {
-        if (heap.isEmpty()) {
-            throw new RuntimeException("Heap is empty");
-        }
-        return heap.get(0);
-    }
-
-    public int size() {
-        return heap.size();
-    }
-
-    public boolean isEmpty() {
-        return heap.isEmpty();
-    }
-
-    private void heapifyUp(int index) {
-        while (index > 0) {
-            int parent = (index - 1) / 2;
-
-            if (heap.get(parent) >= heap.get(index)) {
-                break;
-            }
-
-            swap(parent, index);
-            index = parent;
-        }
-    }
-
-    private void heapifyDown(int index) {
-        int n = heap.size();
-
-        while (true) {
-            int left = 2 * index + 1;
-            int right = 2 * index + 2;
-            int largest = index;
-
-            if (left < n && heap.get(left) > heap.get(largest)) {
-                largest = left;
-            }
-
-            if (right < n && heap.get(right) > heap.get(largest)) {
-                largest = right;
-            }
-
-            if (largest == index) {
-                break;
-            }
-
-            swap(index, largest);
-            index = largest;
-        }
-    }
-
-    private void swap(int i, int j) {
+    void swap(int i, int j) {
         int temp = heap.get(i);
         heap.set(i, heap.get(j));
         heap.set(j, temp);
     }
 
-    public void printHeap() {
-        System.out.println(heap);
+    // New element ko upar le jao
+    void heapifyUp() {
+
+        int i = heap.size() - 1;
+
+        while (i > 0) {
+
+            int parent = getParent(i);
+
+            // Parent already greater/equal hai
+            if (heap.get(parent) >= heap.get(i))
+                break;
+
+            swap(parent, i);
+
+            i = parent;
+        }
     }
 
-    // Optional: Returns the underlying heap
-    public List<Integer> getHeap() {
-        return heap;
+    // Root se heapify down
+    void heapifyDown() {
+
+        int i = 0;
+        int limit = heap.size();
+
+        while (true) {
+
+            int largest = i;
+
+            int left = getLeft(i);
+            int right = getRight(i);
+
+            // Left child bada hai
+            if (left < limit &&
+                heap.get(left) > heap.get(largest)) {
+
+                largest = left;
+            }
+
+            // Right child aur bhi bada hai
+            if (right < limit &&
+                heap.get(right) > heap.get(largest)) {
+
+                largest = right;
+            }
+
+            // Current element hi largest hai
+            if (largest == i)
+                break;
+
+            swap(i, largest);
+
+            i = largest;
+        }
+    }
+
+    // Build heap ke liye
+    void heapifyDown(int i, int limit) {
+
+        while (true) {
+
+            int largest = i;
+
+            int left = getLeft(i);
+            int right = getRight(i);
+
+            if (left < limit &&
+                heap.get(left) > heap.get(largest)) {
+
+                largest = left;
+            }
+
+            if (right < limit &&
+                heap.get(right) > heap.get(largest)) {
+
+                largest = right;
+            }
+
+            if (largest == i)
+                break;
+
+            swap(i, largest);
+
+            i = largest;
+        }
+    }
+
+    // Element insert
+    public void insert(int val) {
+
+        heap.add(val);
+
+        heapifyUp();
+    }
+
+    // Maximum element remove
+    public int extractMax() {
+
+        if (heap.size() == 0)
+            return -1;
+
+        if (heap.size() == 1)
+            return heap.remove(heap.size() - 1);
+
+        // Root par maximum hota hai
+        int max = heap.get(0);
+
+        // Last element ko root par lao
+        int last = heap.remove(heap.size() - 1);
+
+        heap.set(0, last);
+
+        // Heap fix karo
+        heapifyDown();
+
+        return max;
+    }
+
+    // Existing ArrayList ko MaxHeap banao
+    void buildHeap() {
+
+        for (int i = heap.size() / 2 - 1; i >= 0; i--) {
+
+            heapifyDown(i, heap.size());
+        }
+    }
+
+    // Maximum element dekho
+    int peek() {
+
+        return heap.get(0);
+    }
+
+    int size() {
+
+        return heap.size();
     }
 }
