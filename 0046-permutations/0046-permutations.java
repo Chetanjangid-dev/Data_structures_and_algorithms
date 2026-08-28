@@ -1,24 +1,29 @@
 class Solution {
-    List<List<Integer>> ans = new ArrayList<>();
-    List<Integer> temp = new ArrayList<>();
-    Set<Integer> set = new HashSet<>();
-    public void calc(List<Integer> temp,int[] nums){
-     if(temp.size()==nums.length){
-        ans.add(new ArrayList<>(temp));
-                           
-        return ;
-      }
-      for(int i=0;i<nums.length;i++){
-       if(! set.contains(nums[i])){ 
-        temp.add(nums[i]);
-        set.add(nums[i]);
-        calc(temp,nums);
-        set.remove(temp.remove(temp.size()-1));
-       }
-      }
-     }
+    int[] nums;
+    int[] visited;
+    List<Integer> currpath ;
+    List<List<Integer>> result; 
     public List<List<Integer>> permute(int[] nums) {
-        calc(temp,nums);
-        return ans;       
+        this.nums=nums;
+        this.visited =  new int[nums.length];
+        currpath = new ArrayList<>();
+        result = new ArrayList<>();
+        permutations();
+        return result;
+    }
+    public void permutations(){
+      if(currpath.size() == nums.length){
+          result.add(new ArrayList<>(currpath));
+          return ;
+      }
+      for(int i = 0 ; i<nums.length;i++  ){
+        if(visited[i]==0){
+           currpath.add(nums[i]);
+           visited[i]=1;
+           permutations();
+           visited[i]=0;
+           currpath.remove(currpath.size()-1);
+        }
+      }
     }
 }
