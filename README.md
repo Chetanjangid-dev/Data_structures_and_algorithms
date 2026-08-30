@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0110-balanced-binary-tree) |
+| [0226-invert-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0110-balanced-binary-tree) |
+| [0226-invert-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -201,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0110-balanced-binary-tree) |
 | [0130-surrounded-regions](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
+| [0226-invert-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0547-number-of-provinces) |
@@ -216,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
+| [0226-invert-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0226-invert-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0778-swim-in-rising-water) |
