@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0112-path-sum) |
 | [0226-invert-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0112-path-sum) |
 | [0226-invert-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0101-symmetric-tree) |
 | [0110-balanced-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0112-path-sum) |
 | [0130-surrounded-regions](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0226-invert-binary-tree) |
@@ -250,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0101-symmetric-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0112-path-sum) |
 | [0127-word-ladder](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
