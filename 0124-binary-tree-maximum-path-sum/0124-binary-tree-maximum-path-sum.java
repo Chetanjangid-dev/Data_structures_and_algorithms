@@ -10,6 +10,10 @@ class Solution {
       if(node==null){
         return 0;
       }
+      //ye contion rkhni h to glbal max tutdnat update krna hoa ya ise remove krdo 
+      if(node.left==null && node.right==null) {
+         global_max=Math.max(global_max,node.val);       
+         return node.val;}
       int curr = node.val; 
       int left = max(node.left);
       int  right = max(node.right);
