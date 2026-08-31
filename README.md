@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0112-path-sum) |
+| [0113-path-sum-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0113-path-sum-ii) |
 | [0226-invert-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0112-path-sum) |
+| [0113-path-sum-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0113-path-sum-ii) |
 | [0226-invert-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -232,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0112-path-sum) |
+| [0113-path-sum-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0113-path-sum-ii) |
 | [0130-surrounded-regions](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0226-invert-binary-tree) |
@@ -544,6 +547,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0046-permutations) |
 | [0079-word-search](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0079-word-search) |
+| [0113-path-sum-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0131-palindrome-partitioning) |
 ## Union-Find
 |  |
