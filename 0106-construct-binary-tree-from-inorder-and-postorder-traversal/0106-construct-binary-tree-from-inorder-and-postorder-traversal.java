@@ -1,23 +1,48 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
-    int rootindicator;
-     public TreeNode buildTree(int[] inorder, int[] postorder) {
-         rootindicator=postorder.length-1;
-         return   traverse(0,inorder.length-1,postorder,inorder);
+    int p;
+    int[] inorder;
+    int[] postorder;
+    public TreeNode buildTree(int[] inorder, int[] postorder) {
+        this.p = postorder.length;
+        this.inorder=inorder;
+        this.postorder=postorder;
+        return construct(0,inorder.length-1);
     }
-    
-    public TreeNode traverse(int low ,int high,int[] postorder, int[] inorder ){
-    if (high<low){return null;}
-    // searching for root
-    TreeNode root=new TreeNode (postorder[rootindicator]);
-    int i=low;
-    while(inorder[i]!=root.val && i<=high){
-        i++;
+    TreeNode construct(int p1 ,int p2){
+       if(p1>p2){
+        return null;
+       }
+       p--;
+       if(p1 == p2 ){
+        return new TreeNode(inorder[p1]);
+       }
+       int center = p1;
+       for(int i = p1;  i<= p2;i++  ){
+            if(inorder[i]==postorder[p]){
+                center = i;
+                break;
+            }
+       }
+       TreeNode root =  new TreeNode(inorder[center]);
+       //right part ko phle dhnalde krha hova bcz rott ka bad yhi aata h phle hmare traversla me abckward me 
+       root.right  = construct(center+1,p2);
+       root.left  = construct(p1,center-1);
+      
+       return root;
     }
-    rootindicator--; 
-    root.right=traverse(i+1,high,postorder,inorder);
-    root.left=traverse(low,i-1,postorder,inorder);
-   
-    return root;    
-    }
- 
 }
