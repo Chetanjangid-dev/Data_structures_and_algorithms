@@ -1,19 +1,32 @@
+
 class Solution {
-    int rootindicator=0;
-    public TreeNode traverse(int low ,int high,int[] preorder, int[] inorder){
-    if (high<low){return null;}
-    // searching for root
-    TreeNode root=new TreeNode (preorder[rootindicator]);
-    int i=low;
-    while(inorder[i]!=root.val && i<=high){
-        i++;
-    }
-    rootindicator++;
-    root.left=traverse(low,i-1,preorder,inorder);
-    root.right=traverse(i+1,high,preorder,inorder);
-    return root;    
-    }
+    int p = -1 ;
+    int[] preorder;
+    int[] inorder;
+    //i j for partioning 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-     return   traverse(0,inorder.length-1,preorder,inorder);
+        this.inorder=inorder;
+        this.preorder=preorder;
+        return construct(0,inorder.length-1);
+    }
+    TreeNode construct(int p1 ,int p2){
+       if(p1>p2){
+        return null;
+       }
+       p++;
+       if(p1 == p2 ){
+        return new TreeNode(inorder[p1]);
+       }
+       int center = p1;
+       for(int i = p1;  i<= p2;i++  ){
+            if(inorder[i]==preorder[p]){
+                center = i;
+                break;
+            }
+       }
+       TreeNode root =  new TreeNode(inorder[center]);
+       root.left  = construct(p1,center-1);
+       root.right  = construct(center+1,p2);
+       return root;
     }
 }
