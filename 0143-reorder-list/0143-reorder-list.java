@@ -1,39 +1,31 @@
 class Solution {
-    public void reorderList(ListNode head) 
-    {
-     if(head==null){
-        return ;
-     }
-     //find middle
-     ListNode mid=head;
-     ListNode fast=head;
-     while(fast !=null && fast.next!=null){
-        mid=mid.next;
+    public void reorderList(ListNode head) {
+    ListNode slow = head;
+    ListNode fast = head;
+    while(fast!= null && fast.next!=null){
+        slow=slow.next;
         fast=fast.next.next;
-     }
-     // reverse mid  to last node;
-     ListNode prev=null;
-     while(mid!=null){
-        ListNode temp=mid;
-        mid=mid.next;
+    }
+    ListNode first = head;
+    ListNode second = slow.next;
+    slow.next=null;
+    ListNode prev = null;
+    ListNode curr = second;
+    while(curr!=null){
+        ListNode temp = curr;
+        curr=curr.next;
         temp.next=prev;
-        prev=temp;      
-     }
-     //revserse list ka head hoga prev
-     //ab actual head to mid-1 node and mid to last node reversed wala inke repsective nodes ko connect krna  h
-     
-     ListNode first=head;
-     ListNode second=prev;
-     ListNode temp=null;
-     while(second!=null && first!=second){
-         if(temp!=null )
-           temp.next=first;
-         temp=first;
-         first=first.next; 
-         temp.next=second;
-         temp=second;
-         second=second.next;
-     } 
-     return ;
+        prev=temp;
+    } 
+    second = prev;
+    //wehnever u use 2 pointers  approach in linked list  alswya truy to main two diff temp 1 temp2 for bth pointers
+    while(first!=null && second!=null){
+        ListNode temp1 = first.next;
+        ListNode temp2 =second.next;
+        first.next = second;
+        second.next = temp1;
+        first=temp1;
+        second=temp2;   
+    }
     }
 }
