@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0238-product-of-array-except-self) |
@@ -333,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0202-happy-number) |
+| [0204-count-primes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0268-missing-number) |
 | [0509-fibonacci-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0509-fibonacci-number) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
@@ -621,4 +623,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0127-word-ladder) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0204-count-primes) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
