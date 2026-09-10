@@ -11,7 +11,7 @@ class Solution {
                 count++;
 
                 // Only mark if num has a multiple below n
-                if ((long) num * num < n) {
+                
 
                     for (long multiple = (long) num * num;
                          multiple < n;
@@ -19,7 +19,7 @@ class Solution {
 
                         isprime[(int) multiple] = 1;
                     }
-                }
+            
             }
         }
 
