@@ -1,36 +1,9 @@
 class Solution {
-    String prev = "0";
     public int[] countBits(int n) {
-     int[] ans =  new int[n+1];
-     ans[0] = 0;
-      for(int  i = 1 ; i <=  n;i++){
-        ans[i] = countbits();
-      }
-      return ans;   
-    }
-    int countbits(){
-        boolean seted = false;
-        int count = 0;
-        StringBuilder sb =  new StringBuilder(prev);
-        for(int i = prev.length()-1 ; i>= 0 ; i--){
-            if(prev.charAt(i) == '1'){
-                 sb.setCharAt(i, '0');
-            }
-            if(prev.charAt(i) == '0'){
-                sb.setCharAt(i,'1');
-                seted = true;
-                break;
-            }
+        int[] ans =  new int[n+1];
+        for(int   i = 1 ;  i <=n ;i++){
+          ans[i] = ans[i>>1] +(i&1) ; //i>>1 i int ki binry repr me 1 nit right to left shift krta h  and jo binry repr bnti wi int me conver thi jati and ans[i>>1] hume ek right shifr krne se jo int mila h usme kktine bits h ye btata h and ifr i&1 return 1 if the last bit is 1 and return false if the last bit is 0  so we can know ki jo hummen last bit remove ki thi wo 1 thi ya zwer ot tkai hum actaull 1 ka count i ki binty repr me kitne h ye stor ekr payte ams[i] me   
         }
-        if(!seted){
-           prev = 1 + sb.toString();
-        }
-        else{
-        prev = sb.toString(); 
-        }
-        for(int   i = 0; i < prev.length() ;i++ ){
-           if( prev.charAt(i)=='1') count ++;
-        }
-        return count;
+        return ans;
     }
 }
