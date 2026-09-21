@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1631-path-with-minimum-effort) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2226-maximum-candies-allocated-to-k-children) |
+| [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0992-subarrays-with-k-different-integers) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1189-maximum-number-of-balloons](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1189-maximum-number-of-balloons) |
+| [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
+| [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 ## Math
 |  |
 | ------- |
@@ -422,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0992-subarrays-with-k-different-integers) |
 | [1189-maximum-number-of-balloons](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1189-maximum-number-of-balloons) |
+| [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 ## Linked List
 |  |
 | ------- |
