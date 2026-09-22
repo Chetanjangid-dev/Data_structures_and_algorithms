@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0992-subarrays-with-k-different-integers) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1189-maximum-number-of-balloons](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1189-maximum-number-of-balloons) |
+| [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2526-find-consecutive-integers-from-a-data-stream) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 ## Depth-First Search
 |  |
@@ -425,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0992-subarrays-with-k-different-integers) |
 | [1189-maximum-number-of-balloons](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1189-maximum-number-of-balloons) |
+| [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2526-find-consecutive-integers-from-a-data-stream) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 ## Linked List
 |  |
@@ -472,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0918-maximum-sum-circular-subarray) |
+| [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2526-find-consecutive-integers-from-a-data-stream) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -549,10 +552,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0295-find-median-from-data-stream) |
+| [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2526-find-consecutive-integers-from-a-data-stream) |
 ## Data Stream
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0295-find-median-from-data-stream) |
+| [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2526-find-consecutive-integers-from-a-data-stream) |
 ## Recursion
 |  |
 | ------- |
