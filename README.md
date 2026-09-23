@@ -375,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1071-greatest-common-divisor-of-strings) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1143-longest-common-subsequence](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1189-maximum-number-of-balloons) |
 ## Greedy
@@ -389,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0630-course-schedule-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0630-course-schedule-iii) |
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0871-minimum-number-of-refueling-stops) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 ## Sliding Window
 |  |
 | ------- |
@@ -492,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0234-palindrome-linked-list) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 ## Matrix
 |  |
 | ------- |
@@ -673,4 +676,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1071-greatest-common-divisor-of-strings) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 <!---LeetCode Topics End-->
