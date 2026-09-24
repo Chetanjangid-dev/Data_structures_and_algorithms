@@ -298,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0143-reorder-list) |
+| [0165-compare-version-numbers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0165-compare-version-numbers) |
 | [0189-rotate-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0234-palindrome-linked-list) |
@@ -366,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0131-palindrome-partitioning) |
+| [0165-compare-version-numbers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0165-compare-version-numbers) |
 | [0242-valid-anagram](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0387-first-unique-character-in-a-string) |
