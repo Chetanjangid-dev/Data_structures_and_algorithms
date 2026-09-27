@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0410-split-array-largest-sum) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0455-assign-cookies](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0455-assign-cookies) |
 | [0457-circular-array-loop](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0457-circular-array-loop) |
 | [0502-ipo](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0502-ipo) |
 | [0525-contiguous-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0525-contiguous-array) |
@@ -309,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0349-intersection-of-two-arrays](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0349-intersection-of-two-arrays) |
 | [0443-string-compression](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0443-string-compression) |
+| [0455-assign-cookies](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0455-assign-cookies) |
 | [0457-circular-array-loop](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0457-circular-array-loop) |
 | [0658-find-k-closest-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0658-find-k-closest-elements) |
 | [0876-middle-of-the-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0876-middle-of-the-linked-list) |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0455-assign-cookies](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0455-assign-cookies) |
 | [0502-ipo](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0630-course-schedule-iii) |
@@ -395,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0409-longest-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0409-longest-palindrome) |
 | [0410-split-array-largest-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0410-split-array-largest-sum) |
+| [0455-assign-cookies](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0455-assign-cookies) |
 | [0502-ipo](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0630-course-schedule-iii) |
@@ -640,6 +644,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0056-merge-intervals) |
+| [0455-assign-cookies](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0455-assign-cookies) |
 ## Bracket Sequences
 |  |
 | ------- |
