@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0724-find-pivot-index) |
 | [0778-swim-in-rising-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0778-swim-in-rising-water) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0860-lemonade-change](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0860-lemonade-change) |
 | [0867-transpose-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0867-transpose-matrix) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0875-koko-eating-bananas](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0875-koko-eating-bananas) |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0630-course-schedule-iii) |
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
+| [0860-lemonade-change](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0860-lemonade-change) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0871-minimum-number-of-refueling-stops) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 ## Sliding Window
