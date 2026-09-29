@@ -297,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0125-valid-palindrome) |
@@ -372,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0022-generate-parentheses) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0079-word-search) |
@@ -719,4 +721,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0912-sort-an-array) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Z Algorithm
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Knuth–Morris–Pratt Algorithm
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Boyer–Moore String-Search Algorithm
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
