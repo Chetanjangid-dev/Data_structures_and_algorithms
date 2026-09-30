@@ -366,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1071-greatest-common-divisor-of-strings) |
+| [1518-water-bottles](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1518-water-bottles) |
 ## String
 |  |
 | ------- |
@@ -644,6 +645,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0059-spiral-matrix-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0059-spiral-matrix-ii) |
 | [0412-fizz-buzz](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0412-fizz-buzz) |
 | [0867-transpose-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0867-transpose-matrix) |
+| [1518-water-bottles](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1518-water-bottles) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
