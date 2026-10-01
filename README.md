@@ -318,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0455-assign-cookies) |
 | [0457-circular-array-loop](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0457-circular-array-loop) |
 | [0658-find-k-closest-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0658-find-k-closest-elements) |
+| [0696-count-binary-substrings](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0696-count-binary-substrings) |
 | [0876-middle-of-the-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0876-middle-of-the-linked-list) |
 | [0986-interval-list-intersections](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0986-interval-list-intersections) |
 ## Sorting
@@ -394,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0443-string-compression) |
 | [0692-top-k-frequent-words](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0692-top-k-frequent-words) |
+| [0696-count-binary-substrings](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0696-count-binary-substrings) |
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1071-greatest-common-divisor-of-strings) |
