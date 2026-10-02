@@ -236,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0525-contiguous-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
@@ -322,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0455-assign-cookies) |
 | [0457-circular-array-loop](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0457-circular-array-loop) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0567-permutation-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0658-find-k-closest-elements) |
 | [0696-count-binary-substrings](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0696-count-binary-substrings) |
 | [0876-middle-of-the-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0876-middle-of-the-linked-list) |
@@ -401,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0443-string-compression) |
+| [0567-permutation-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0692-top-k-frequent-words) |
 | [0696-count-binary-substrings](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0696-count-binary-substrings) |
 | [0767-reorganize-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0767-reorganize-string) |
@@ -433,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0930-binary-subarrays-with-sum) |
