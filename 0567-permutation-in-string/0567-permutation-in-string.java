@@ -1,37 +1,57 @@
 class Solution {
-    HashMap<Character,Integer> s2_map ;
-    boolean check( HashMap<Character,Integer>  s1_map ){
-      for (Character key : s2_map.keySet()) {
-           if(!s1_map.containsKey(key) || (int)s1_map.get(key)!= (int)s2_map.get(key)){
-            return false;
-           }
-      }
-     return true;
-     }
+
+    int[] s2_freq;
+
+    boolean check(int[] s1_freq) {
+
+        for (int i = 0; i < 26; i++) {
+
+            if (s1_freq[i] != s2_freq[i]) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     public boolean checkInclusion(String s2, String s1) {
-        //always assume s1 shorter
-        if(s2.length() > s1.length()) return false;
-        //if(s2.length()>s1.length()) return false;
-        this.s2_map =  new HashMap<>();
-        HashMap<Character,Integer> s1_map =  new HashMap<>();
-        for(int  i = 0 ;i<s2.length() ;i++){
-            char ch =  s2.charAt(i);
-           s2_map.put(ch, s2_map.getOrDefault(ch, 0) + 1);
+
+        // s2 should be shorter or equal to s1
+        if (s2.length() > s1.length()) return false;
+
+        s2_freq = new int[26];
+        int[] s1_freq = new int[26];
+
+        // frequency of s2
+        for (int i = 0; i < s2.length(); i++) {
+
+            char ch = s2.charAt(i);
+            s2_freq[ch - 'a']++;
         }
-        // s2 size windw
-        for(int i  = 0 ;i<s2.length() ;i++){
-            char ch =  s1.charAt(i);
-            s1_map.put(ch, s1_map.getOrDefault(ch, 0) + 1);
+
+        // first window of s1
+        for (int i = 0; i < s2.length(); i++) {
+
+            char ch = s1.charAt(i);
+            s1_freq[ch - 'a']++;
         }
-        if(check(s1_map)) return true;
-        for(int  i  = s2.length();i<s1.length() ;i++){
-           char add =  s1.charAt(i);
-           s1_map.put(add, s1_map.getOrDefault(add, 0) + 1);
-           char rem = s1.charAt(i-s2.length());
-           s1_map.put(rem,s1_map.get(rem)-1);
-           if(s1_map.get(rem) == 0)  s1_map.remove(rem);
-           if(check(s1_map)) return true;
+
+        if (check(s1_freq)) return true;
+
+        // sliding window
+        for (int i = s2.length(); i < s1.length(); i++) {
+
+            // add new character
+            char add = s1.charAt(i);
+            s1_freq[add - 'a']++;
+
+            // remove old character
+            char rem = s1.charAt(i - s2.length());
+            s1_freq[rem - 'a']--;
+
+            if (check(s1_freq)) return true;
         }
+
         return false;
     }
 }
