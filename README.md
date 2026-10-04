@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2226-maximum-candies-allocated-to-k-children) |
+| [2563-count-the-number-of-fair-pairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2563-count-the-number-of-fair-pairs) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 ## Divide and Conquer
 |  |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-path-with-minimum-effort](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1631-path-with-minimum-effort) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2226-maximum-candies-allocated-to-k-children) |
+| [2563-count-the-number-of-fair-pairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2563-count-the-number-of-fair-pairs) |
 ## Binary Tree
 |  |
 | ------- |
@@ -330,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0696-count-binary-substrings](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0696-count-binary-substrings) |
 | [0876-middle-of-the-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0876-middle-of-the-linked-list) |
 | [0986-interval-list-intersections](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0986-interval-list-intersections) |
+| [2563-count-the-number-of-fair-pairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2563-count-the-number-of-fair-pairs) |
 ## Sorting
 |  |
 | ------- |
@@ -358,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 | [1200-minimum-absolute-difference](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1200-minimum-absolute-difference) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
+| [2563-count-the-number-of-fair-pairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2563-count-the-number-of-fair-pairs) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 ## Math
 |  |
