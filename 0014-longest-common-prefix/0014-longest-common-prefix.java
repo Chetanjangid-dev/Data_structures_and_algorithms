@@ -6,17 +6,18 @@ class Solution {
           smallestsize  = Math.min( strs[i].length() , smallestsize);
           smallestStringindex  =i;
        }
-       String lcp = "";
+       int lcpindex =0;
        String smalleststring = strs[smallestStringindex];
-       for(int  i  =  1  ; i  <= smallestsize;i++){
-        String compare  =  smalleststring.substring(0,i);
+       for(int  i  =  0  ; i  < smallestsize;i++){
+        char comp  = smalleststring.charAt(i);
         for(int   j = 0 ;j < strs.length ; j++){
-            if(!strs[j].substring(0,i).equals(compare)){
-                return lcp;
-            }
+             if(strs[j].charAt(i) != comp){
+                return smalleststring.substring(0,lcpindex);
+             }
         }
-        lcp = compare;
+        lcpindex++;
        }
-       return lcp;
+       return smalleststring.substring(0,lcpindex);
     }
 }
+//tc  o(w*n*w) w2n 
