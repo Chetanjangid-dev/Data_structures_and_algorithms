@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0118-pascals-triangle](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -510,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0070-climbing-stairs) |
+| [0118-pascals-triangle](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
