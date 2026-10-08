@@ -326,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0295-find-median-from-data-stream) |
+| [0345-reverse-vowels-of-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0345-reverse-vowels-of-a-string) |
 | [0349-intersection-of-two-arrays](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0349-intersection-of-two-arrays) |
 | [0443-string-compression](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0455-assign-cookies) |
@@ -413,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0165-compare-version-numbers) |
 | [0179-largest-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0242-valid-anagram) |
+| [0345-reverse-vowels-of-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0409-longest-palindrome) |
