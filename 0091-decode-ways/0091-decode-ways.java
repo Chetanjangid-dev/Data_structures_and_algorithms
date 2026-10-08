@@ -4,19 +4,20 @@ class Solution {
     public int numDecodings(String s) {
          if(s.length()==0) return 0;
          this.s=s;
-         this.dp=new int[s.length()+1];
-         dp[s.length()]=  1;
+         int prev_one=1;
+         int prev_two=0;
          for(int i = s.length()-1;i>=0;i--){
             int one=0;
             int two=0;
             if(Integer.parseInt(s.charAt(i)+"")>0){
-              one =dp[i+1];
+              one =prev_one;
             }
            if(i+1<s.length() && s.charAt(i)!='0' && Integer.parseInt(s.charAt(i) +""+s.charAt(i+1)) <27 &&  Integer.parseInt(s.  charAt  (i) +""+s.charAt(i+1)) >0 ){
-            two=dp[i+2];     
+            two=prev_two;     
            }
-           dp[i]=one+two;
+           prev_two=prev_one;
+           prev_one=one+two;
          }
-         return dp[0];
+         return prev_one;
     }
 }
