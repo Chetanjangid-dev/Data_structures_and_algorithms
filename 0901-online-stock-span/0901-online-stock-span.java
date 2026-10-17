@@ -19,6 +19,7 @@ class StockSpanner{
         }
         int ans = count-stack.peek()[0];
         stack.push(new int[]{count,price});
+        prev = price;
         return ans; 
     }
 }
