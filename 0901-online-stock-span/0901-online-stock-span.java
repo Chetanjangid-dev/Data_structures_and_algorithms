@@ -11,6 +11,8 @@ class StockSpanner{
         count++;
         if(price<prev){
            days.add(new int[]{count-1,prev});
+           prev = price;
+           return 1;
         }
         prev = price;
         int i = days.size()-1;
