@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0455-assign-cookies) |
 | [0457-circular-array-loop](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0457-circular-array-loop) |
 | [0502-ipo](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0502-ipo) |
+| [0523-continuous-subarray-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0525-contiguous-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0560-subarray-sum-equals-k) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0457-circular-array-loop](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0457-circular-array-loop) |
+| [0523-continuous-subarray-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0525-contiguous-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0560-subarray-sum-equals-k) |
@@ -396,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0268-missing-number) |
 | [0412-fizz-buzz](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0412-fizz-buzz) |
 | [0509-fibonacci-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0509-fibonacci-number) |
+| [0523-continuous-subarray-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0523-continuous-subarray-sum) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1071-greatest-common-divisor-of-strings) |
@@ -479,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0238-product-of-array-except-self) |
 | [0410-split-array-largest-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0410-split-array-largest-sum) |
+| [0523-continuous-subarray-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0713-subarray-product-less-than-k) |
@@ -818,4 +822,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0169-majority-element) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0523-continuous-subarray-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0523-continuous-subarray-sum) |
 <!---LeetCode Topics End-->
