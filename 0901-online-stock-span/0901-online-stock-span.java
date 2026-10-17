@@ -1,25 +1,25 @@
 class StockSpanner{
     List<int[]> days;
     int prev,count;
+    Stack<int[]> stack ;
     public StockSpanner() {
         this.count = 0;
+        this.stack =  new Stack();
         this.prev = Integer.MAX_VALUE;
-        this.days =  new ArrayList<>();
-        days.add(new int[]{0,prev});
     }
     public int next(int price) {
         count++;
         if(price<prev){
-           days.add(new int[]{count-1,prev});
-           prev = price;
-           return 1;
+            stack.push(new int[]{count-1,prev});
+            prev = price;
+            return 1;
+        }  
+        while(!stack.isEmpty() && stack.peek()[1] <= price){
+            stack.pop();
         }
-        prev = price;
-        int i = days.size()-1;
-        while(i>=0 && days.get(i)[1]<=price){
-          i--;
-        }
-        return count-days.get(i)[0];
+        int ans = count-stack.peek()[0];
+        stack.push(new int[]{count,price});
+        return ans; 
     }
 }
 
