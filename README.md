@@ -403,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1518-water-bottles](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1518-water-bottles) |
+| [3001-minimum-moves-to-capture-the-queen](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3001-minimum-moves-to-capture-the-queen) |
 ## String
 |  |
 | ------- |
@@ -747,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0204-count-primes) |
+| [3001-minimum-moves-to-capture-the-queen](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3001-minimum-moves-to-capture-the-queen) |
 ## Number Theory
 |  |
 | ------- |
