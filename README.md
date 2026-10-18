@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2226-maximum-candies-allocated-to-k-children) |
 | [2563-count-the-number-of-fair-pairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2563-count-the-number-of-fair-pairs) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
+| [3819-rotate-non-negative-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3819-rotate-non-negative-elements) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -711,6 +712,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0412-fizz-buzz) |
 | [0867-transpose-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0867-transpose-matrix) |
 | [1518-water-bottles](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1518-water-bottles) |
+| [3819-rotate-non-negative-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3819-rotate-non-negative-elements) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
