@@ -1,6 +1,7 @@
 class Solution {
     public long smallestNumber(long num) {
         if(num>=-9 && num<=9) return num;
+        if(num ==  Long.MIN_VALUE ) return num;
         boolean isneg = num<0;
         num = Math.abs(num);
         long div = 1;
@@ -9,39 +10,42 @@ class Solution {
             div*=10;
             size++;
         }
-        int[] nums=  new int[size];
-
-        int prev = 0;
+        int[] nums=  new int[10];
         while (div > 0) {
            int digit = (int)(num / div);
-           nums[prev] = digit;
-           prev++;
+           nums[digit]++;
+           
            num %= div;
            div /= 10;
         }
         long ans = 0;
-        Arrays.sort(nums);
-        if(!isneg){
-        int i = 0;
-        while(nums[i] == 0){ i++;}
-        ans = nums[i];
-        int skip = i;
-        i=0;
-        while(i<nums.length){
-            if(i==skip){ 
-                i++;
-                continue;
+        if(isneg){
+          int  i = 9;
+          while(i>=0){
+            while(nums[i]>0){
+              ans = ans*10+i;
+              nums[i]--;  
             }
-            ans=ans*10+nums[i];
-            i++;
-        }
+            i--;
+          }
         }
         else{
-          int i  = nums.length-1;
-          while(i>=0){
-            ans=ans*10+nums[i];
-            i--;
-          }   
+            int i  = 1;
+            while(nums[i]==0) i++;
+            ans = ans*10+i;
+            nums[i]--;
+            while(nums[0]>0){
+                ans=ans*10+0;
+                nums[0]--;
+            }
+            i = 1;
+            while(i<nums.length){
+                while(nums[i]>0){
+                ans=ans*10+i;
+                nums[i]--;
+                }
+                i++;
+            }           
         }
         if(isneg) return -ans;
         return ans;
