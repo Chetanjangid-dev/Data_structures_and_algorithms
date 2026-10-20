@@ -454,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1143-longest-common-subsequence](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1189-maximum-number-of-balloons) |
+| [3163-string-compression-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3163-string-compression-iii) |
 ## Greedy
 |  |
 | ------- |
