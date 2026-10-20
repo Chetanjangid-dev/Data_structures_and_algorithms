@@ -384,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 | [1200-minimum-absolute-difference](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1200-minimum-absolute-difference) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
+| [2165-smallest-value-of-the-rearranged-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2165-smallest-value-of-the-rearranged-number) |
 | [2563-count-the-number-of-fair-pairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2563-count-the-number-of-fair-pairs) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 ## Math
@@ -410,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1518-water-bottles](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1518-water-bottles) |
+| [2165-smallest-value-of-the-rearranged-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2165-smallest-value-of-the-rearranged-number) |
 | [3001-minimum-moves-to-capture-the-queen](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3001-minimum-moves-to-capture-the-queen) |
 ## String
 |  |
