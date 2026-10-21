@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0724-find-pivot-index) |
+| [0735-asteroid-collision](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0735-asteroid-collision) |
 | [0778-swim-in-rising-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0778-swim-in-rising-water) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0860-lemonade-change](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0860-lemonade-change) |
@@ -587,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0234-palindrome-linked-list) |
+| [0735-asteroid-collision](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0735-asteroid-collision) |
 | [0901-online-stock-span](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0907-sum-of-subarray-minimums) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -724,6 +726,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0059-spiral-matrix-ii) |
 | [0412-fizz-buzz](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0412-fizz-buzz) |
+| [0735-asteroid-collision](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0735-asteroid-collision) |
 | [0867-transpose-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0867-transpose-matrix) |
 | [1518-water-bottles](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1518-water-bottles) |
 | [3819-rotate-non-negative-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3819-rotate-non-negative-elements) |
