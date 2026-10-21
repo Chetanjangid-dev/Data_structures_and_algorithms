@@ -38,9 +38,11 @@ class Solution {
         return ;
     }
     public List<String> restoreIpAddresses(String s) {
+      
         this.s=s;
         this.ans =  new ArrayList<>();
         this.sb = new StringBuilder();
+        if(s.length()>12) return new ArrayList<>();
         combo(0,3);
         return ans;
     }
