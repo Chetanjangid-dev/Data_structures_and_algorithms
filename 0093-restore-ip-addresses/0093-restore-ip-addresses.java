@@ -13,7 +13,6 @@ class Solution {
        return false;
     } 
     void combo(int i,int dots){
-        if(i== s.length()) return ;
         if(dots == 0 && valid(i,s.length()-1)){
             String temp = s.substring(i,s.length());
             sb.append(temp);
@@ -21,7 +20,6 @@ class Solution {
             sb.delete(sb.length()-temp.length(),sb.length());
             return ;
         }
-
         if(i<s.length()-1){
           sb.append(s.charAt(i)+""+".");
           combo(i+1,dots-1);
