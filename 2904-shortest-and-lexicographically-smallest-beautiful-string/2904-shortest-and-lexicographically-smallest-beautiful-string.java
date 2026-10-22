@@ -30,6 +30,8 @@ class Solution {
         char curr = s.charAt(second);
         if(curr=='1') ones++;
         while(first<=second  && ones==k){
+          
+         if(s.charAt(first) == '1' ){
           if(second-first+1 == ind2-ind1+1){
              int[] ans = validindices(first,second);
              ind1 = ans[0];
@@ -39,8 +41,9 @@ class Solution {
              ind1 = first;
              ind2 = second;
           }
-          if(s.charAt(first) == '1')  ones--;
-          first++;
+          ones--;
+         }
+         first++;
         }
         second++;
      }
