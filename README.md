@@ -457,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1143-longest-common-subsequence](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1189-maximum-number-of-balloons) |
+| [1234-replace-the-substring-for-balanced-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1234-replace-the-substring-for-balanced-string) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3163-string-compression-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3163-string-compression-iii) |
@@ -493,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1004-max-consecutive-ones-iii) |
+| [1234-replace-the-substring-for-balanced-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1234-replace-the-substring-for-balanced-string) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 ## Prefix Sum
 |  |
