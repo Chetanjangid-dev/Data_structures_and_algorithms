@@ -25,15 +25,6 @@ class Solution {
       for(int  i = 0;i<dp.length;i++){
         Arrays.fill(dp[i],-1);
       }
-      Arrays.sort(coins);
-      int f = 0,s = coins.length-1;
-      while(f<s){
-        int temp  = coins[f];
-        coins[f]=coins[s];
-        coins[s]=temp;
-        f++;
-        s--;
-      }
       long res = recurse(0,amount);
       if(res>= Integer.MAX_VALUE)  return -1;
       return (int)res;
