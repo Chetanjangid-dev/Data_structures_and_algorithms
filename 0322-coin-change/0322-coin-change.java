@@ -8,16 +8,15 @@ class Solution {
       if(dp[index][amount] != -1) return dp[index][amount];
       int max = Integer.MAX_VALUE;
       long curr =max;
-      long mid = max;
+     
       long next = max;
       //choose curr
      if(amount  - coins[index] >= 0 )
       curr = 1 + recurse(index , amount - coins[index]);
-     if(amount  - coins[index] >= 0 && index+1<coins.length )
-      mid =1+recurse(index+1,amount - coins[index]);
+    
      if(index+1<coins.length)
       next =  recurse(index+1,amount);
-     return dp[index][amount] =(int) Math.min(curr, Math.min(mid,next));
+     return dp[index][amount] =(int) Math.min(curr,next);
     }
     public int coinChange(int[] coins, int amount) {
       this.coins=coins;
