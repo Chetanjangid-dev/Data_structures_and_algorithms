@@ -1,46 +1,29 @@
 class Solution {
-    String concatenate(String str1,String str2){
-        if(str1.equals("0")) return str2;
-        if(str2.equals("0")) return str1;
-        int p1 = str1.length()-1;
-        int p2 = str2.length()-1;
-        int carry =0;
-         StringBuilder sb =  new StringBuilder();
-        while(p1 >=0 && p2>=0){
-           
-            int res = (str1.charAt(p1) - '0')+(str2.charAt(p2) - '0');
-            res+=carry;
-            carry=0;
+    int[] concatenate(int[] curr,int[] prev){        
+        int p1 = curr.length-1;
+        int p2 = prev.length-1;
+        int carry  = 0;
+        while(p1>=0 && p2>=0){
+            int res  = curr[p1] + prev[p2] + carry;
+            carry = 0;
             if(res>9){
-                carry=1;
-                res-=10;
+                carry = res/10;
+                res = res%10;
             }
-            sb.append(res+"");
+            curr[p1]=res;
             p1--;
             p2--;
         }
-        while(p1>=0){
-            int res = (str1.charAt(p1) - '0')+(carry);
-            carry=0;
-            if(res>9){
-                carry=1;
-                res-=10;
+        while(carry>0 && p1>=0){
+            curr[p1] = carry + curr[p1];
+            carry = 0;
+            if(curr[p1]>9){
+                carry = curr[p1]/10;
+                curr[p1] = curr[p1]%10;
             }
-            sb.append(res+"");
             p1--;
         }
-        while(p2>=0){
-            int res = (str2.charAt(p2) - '0')+(carry);
-            carry=0;
-            if(res>9){
-                carry=1;
-                res-=10;
-            }
-            sb.append(res+"");
-            p2--;
-        }
-        if(carry == 1) sb.append("1");
-        return sb.reverse().toString();
+        return curr;
     }
     public String multiply(String num1, String num2) {
        if(num1.equals("0") || num2.equals("0")) return "0";
@@ -48,10 +31,18 @@ class Solution {
        if(num2.equals("1")) return num1;
         int p1 = num1.length()-1;
         int p2 = num2.length()-1;
-        String prev = "0";
+        int[] prev =new int[num1.length() + num2.length()];
         while(p1>=0){
              p2 = num2.length()-1;
              StringBuilder sb  =  new StringBuilder();
+             int[] curr =  new int[prev.length];
+             int i = curr.length-1;
+             int zeroestobeadded= num1.length()-1- p1;
+             while(zeroestobeadded >0){
+                curr[i] = 0;
+                i--;
+                zeroestobeadded--;
+             }
              int carry = 0;
              while(p2>=0){
                 int intermediate = (num1.charAt(p1)-'0')*(num2.charAt(p2) - '0');
@@ -61,22 +52,24 @@ class Solution {
                      carry = intermediate/10;
                      intermediate = intermediate%10;
                 }
-                sb.append(intermediate+"");
+                curr[i]=intermediate;
+                i--;
                 p2--;
              }
              if(carry >=1 ){
-                sb.append(carry+"");
+                 curr[i]=carry;
              }
-             sb = sb.reverse();
-             for(int  i = 0 ;i<(num1.length()-1)-p1;i++){
-                sb.append("0");
-             }
-             String curr = sb.toString();
-             System.out.println("adding "+prev+" and "+curr);
+             //System.out.println("adding "+prev+" and "+curr);
              prev = concatenate(prev,curr);
-             System.out.println("go res = "+prev);
              p1--;
         }
-        return prev;
+        boolean onetimenonzerocomes = false;
+        StringBuilder sb =  new StringBuilder();
+        for(int  i = 0 ;i<prev.length ;i++){
+            if(prev[i] == 0 && onetimenonzerocomes == false) continue;
+            sb.append(prev[i]+"");
+            onetimenonzerocomes =true;
+        }
+        return sb.toString();
     }
 }
