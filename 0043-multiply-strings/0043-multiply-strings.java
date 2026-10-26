@@ -1,30 +1,4 @@
 class Solution {
-    int[] concatenate(int[] curr,int[] prev){        
-        int p1 = curr.length-1;
-        int p2 = prev.length-1;
-        int carry  = 0;
-        while(p1>=0 && p2>=0){
-            int res  = curr[p1] + prev[p2] + carry;
-            carry = 0;
-            if(res>9){
-                carry = res/10;
-                res = res%10;
-            }
-            curr[p1]=res;
-            p1--;
-            p2--;
-        }
-        while(carry>0 && p1>=0){
-            curr[p1] = carry + curr[p1];
-            carry = 0;
-            if(curr[p1]>9){
-                carry = curr[p1]/10;
-                curr[p1] = curr[p1]%10;
-            }
-            p1--;
-        }
-        return curr;
-    }
     public String multiply(String num1, String num2) {
        if(num1.equals("0") || num2.equals("0")) return "0";
        if(num1.equals("1")) return num2;
@@ -34,35 +8,34 @@ class Solution {
         int[] prev =new int[num1.length() + num2.length()];
         while(p1>=0){
              p2 = num2.length()-1;
-             StringBuilder sb  =  new StringBuilder();
-             int[] curr =  new int[prev.length];
-             int i = curr.length-1;
+             int number = (num1.charAt(p1)-'0');
              int zeroestobeadded= num1.length()-1- p1;
-             while(zeroestobeadded >0){
-                curr[i] = prev[i];
-                i--;
-                zeroestobeadded--;
-             }
              int carry = 0;
+             int index = prev.length - zeroestobeadded-1;
              while(p2>=0){
-                 
-                int intermediate = (num1.charAt(p1)-'0')*(num2.charAt(p2) - '0');
-                intermediate +=carry+prev[i];
+                int res =number*(num2.charAt(p2) - '0');
+                res +=carry;
+                res += prev[index];
                 carry = 0;
-                if(intermediate > 9){
-                     carry = intermediate/10;
-                     intermediate = intermediate%10;
+                if(res > 9){
+                     carry = res/10;
+                     res = res%10;
                 }
-                curr[i]=intermediate;
-                i--;
+                prev[index]=res;
+                index--;
                 p2--;
-
              }
-             if(carry >=1 ){
-                 curr[i]=carry;
+             while(carry>=1){
+                int res = 0;
+                res=res+prev[index]+carry;
+                carry=0;
+                if(res>9){
+                    carry = res/10;
+                     res = res%10;
+                }
+                prev[index] = res;
+                index--;
              }
-             prev = curr;
-             //System.out.println("adding "+prev+" and "+curr);
              p1--;
         }
         boolean onetimenonzerocomes = false;
