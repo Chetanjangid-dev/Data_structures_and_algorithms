@@ -39,14 +39,15 @@ class Solution {
              int i = curr.length-1;
              int zeroestobeadded= num1.length()-1- p1;
              while(zeroestobeadded >0){
-                curr[i] = 0;
+                curr[i] = prev[i];
                 i--;
                 zeroestobeadded--;
              }
              int carry = 0;
              while(p2>=0){
+                 
                 int intermediate = (num1.charAt(p1)-'0')*(num2.charAt(p2) - '0');
-                intermediate +=carry;
+                intermediate +=carry+prev[i];
                 carry = 0;
                 if(intermediate > 9){
                      carry = intermediate/10;
@@ -55,12 +56,13 @@ class Solution {
                 curr[i]=intermediate;
                 i--;
                 p2--;
+
              }
              if(carry >=1 ){
                  curr[i]=carry;
              }
+             prev = curr;
              //System.out.println("adding "+prev+" and "+curr);
-             prev = concatenate(prev,curr);
              p1--;
         }
         boolean onetimenonzerocomes = false;
