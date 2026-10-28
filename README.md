@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0039-combination-sum) |
 | [0041-first-missing-positive](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0049-group-anagrams) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0042-trapping-rain-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0125-valid-palindrome) |
@@ -559,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0064-minimum-path-sum) |
@@ -602,6 +605,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0234-palindrome-linked-list) |
@@ -816,6 +820,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0042-trapping-rain-water) |
 | [0901-online-stock-span](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0907-sum-of-subarray-minimums) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
