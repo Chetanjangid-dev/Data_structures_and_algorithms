@@ -59,6 +59,7 @@ class Router {
         List<Integer> curr =  ranges.get(destination);
         int low = 0 ;
         int high = curr.size()-1;
+        if(curr.get(low)>endTime || curr.get(high) <startTime) return 0; 
         int first=-1,second=-1;
         while(low<=high){
             int mid = (low+high)/2;
