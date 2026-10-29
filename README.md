@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2602-minimum-operations-to-make-all-array-elements-equal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2602-minimum-operations-to-make-all-array-elements-equal) |
 | [2905-find-indices-with-index-and-value-difference-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2905-find-indices-with-index-and-value-difference-ii) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
+| [3508-implement-router](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3508-implement-router) |
 | [3819-rotate-non-negative-elements](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3819-rotate-non-negative-elements) |
 ## Divide and Conquer
 |  |
@@ -199,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2226-maximum-candies-allocated-to-k-children) |
 | [2563-count-the-number-of-fair-pairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2602-minimum-operations-to-make-all-array-elements-equal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2602-minimum-operations-to-make-all-array-elements-equal) |
+| [3508-implement-router](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3508-implement-router) |
 ## Binary Tree
 |  |
 | ------- |
@@ -273,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1189-maximum-number-of-balloons](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1189-maximum-number-of-balloons) |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2526-find-consecutive-integers-from-a-data-stream) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
+| [3508-implement-router](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3508-implement-router) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -593,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0918-maximum-sum-circular-subarray) |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2526-find-consecutive-integers-from-a-data-stream) |
+| [3508-implement-router](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3508-implement-router) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -683,6 +687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0901-online-stock-span](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0901-online-stock-span) |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2526-find-consecutive-integers-from-a-data-stream) |
+| [3508-implement-router](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3508-implement-router) |
 ## Data Stream
 |  |
 | ------- |
@@ -885,4 +890,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0322-coin-change) |
+## Ordered Set
+|  |
+| ------- |
+| [3508-implement-router](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3508-implement-router) |
 <!---LeetCode Topics End-->
