@@ -1,34 +1,40 @@
 class Solution {
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-        int taskcompleted = 0;
-        int[] indegree =  new int[numCourses];
-        Queue<Integer> q =  new ArrayDeque();
-        List<List<Integer>> dependency = new ArrayList<>();
+    boolean cycle = false;
+    int[] visited;
+    HashSet<Integer> path;
+      List<List<Integer>> adj;
+    private void dfs(int node){
+       visited[node]=1;
+       for(int neighbour : adj.get(node)){   
+        if(path.contains(neighbour)){
+            cycle=true;
+        }
+        else if(visited[neighbour] == 0){
+            path.add(node);
+            dfs(neighbour);
+            path.remove(node);
+        }
+       }
+    }
+    public boolean canFinish(int numCourses, int[][] prerequisites){
+        this.adj = new ArrayList<>();
+        this.visited = new int[numCourses];
+        this.path = new HashSet<>();
         for(int i=0;i<numCourses;i++){
-            dependency.add(new ArrayList<>());
+            adj.add(new ArrayList<>());
         }
         for(int[] edge : prerequisites){
             int src = edge[1];
             int dest = edge[0];
-             indegree[dest]++;
-            dependency.get(src).add(dest);
+            adj.get(src).add(dest);
         }
-        for(int i =0;i<indegree.length;i++){
-            if(indegree[i] == 0){
-                q.offer(i);
-            }
-             
-        }
-        while(!q.isEmpty()){
-            int ele = q.poll();
-            taskcompleted++;
-            for(int neigh : dependency.get(ele)){
-              indegree[neigh]--;
-              if(indegree[neigh] == 0){
-                q.offer(neigh);
-              }
-            }
-        }
-        return taskcompleted == numCourses;
+        for(int i=0;i<numCourses;i++){
+           if(visited[i] == 0){
+            path.add(i);
+             dfs(i);
+             path.remove(i);
+           }
+        }        
+        return !cycle;
     }
 }
