@@ -84,7 +84,6 @@ class Router {
                 high = mid-1;
             }
         }
-        if(second<first) return 0;
         count = second-first+1;
         return count;
     }
