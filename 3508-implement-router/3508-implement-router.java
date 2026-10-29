@@ -71,7 +71,6 @@ class Router {
                 low=mid+1;
             }
         }
-        if(first == -1) return 0;
         low=0;
         high = curr.size()-1;
         while(low<=high){
