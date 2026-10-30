@@ -419,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0268-missing-number) |
+| [0319-bulb-switcher](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0319-bulb-switcher) |
 | [0412-fizz-buzz](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0412-fizz-buzz) |
 | [0509-fibonacci-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0509-fibonacci-number) |
 | [0523-continuous-subarray-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0523-continuous-subarray-sum) |
@@ -906,4 +907,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0207-course-schedule) |
+## Brainteaser
+|  |
+| ------- |
+| [0319-bulb-switcher](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0319-bulb-switcher) |
 <!---LeetCode Topics End-->
