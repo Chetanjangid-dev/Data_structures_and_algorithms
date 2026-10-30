@@ -19,13 +19,12 @@ class Solution {
        }
         //skip house on plot i
         skip  = (ways(i+1)%mod);
-        return dp[i]=(put+skip)%mod;
+        return dp[i]=(int)(((long)put+skip)%mod);
     }
     public int countHousePlacements(int n) {
         this.dp =  new int[(n*2) +1];
         Arrays.fill(dp,-1);
-        this.n=n;
-        
+        this.n=n;       
         return   ways(0)%mod;
     }
 }
