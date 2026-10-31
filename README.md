@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1046-last-stone-weight](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1046-last-stone-weight) |
+| [1124-longest-well-performing-interval](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1124-longest-well-performing-interval) |
 | [1200-minimum-absolute-difference](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1200-minimum-absolute-difference) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0974-subarray-sums-divisible-by-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0992-subarrays-with-k-different-integers) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1124-longest-well-performing-interval](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1124-longest-well-performing-interval) |
 | [1189-maximum-number-of-balloons](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1189-maximum-number-of-balloons) |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2526-find-consecutive-integers-from-a-data-stream) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
@@ -526,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1004-max-consecutive-ones-iii) |
+| [1124-longest-well-performing-interval](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1124-longest-well-performing-interval) |
 | [2602-minimum-operations-to-make-all-array-elements-equal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2602-minimum-operations-to-make-all-array-elements-equal) |
 ## Counting
 |  |
@@ -624,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0907-sum-of-subarray-minimums) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1124-longest-well-performing-interval](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1124-longest-well-performing-interval) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Matrix
 |  |
@@ -836,6 +840,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0901-online-stock-span](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0907-sum-of-subarray-minimums) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1124-longest-well-performing-interval](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1124-longest-well-performing-interval) |
 ## Merge Sort
 |  |
 | ------- |
