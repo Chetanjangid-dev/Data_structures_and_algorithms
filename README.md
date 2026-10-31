@@ -420,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0268-missing-number) |
 | [0319-bulb-switcher](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0319-bulb-switcher) |
+| [0343-integer-break](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0343-integer-break) |
 | [0412-fizz-buzz](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0412-fizz-buzz) |
 | [0509-fibonacci-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0509-fibonacci-number) |
 | [0523-continuous-subarray-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0523-continuous-subarray-sum) |
@@ -585,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0338-counting-bits) |
+| [0343-integer-break](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0343-integer-break) |
 | [0410-split-array-largest-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0410-split-array-largest-sum) |
 | [0509-fibonacci-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0509-fibonacci-number) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0787-cheapest-flights-within-k-stops) |
