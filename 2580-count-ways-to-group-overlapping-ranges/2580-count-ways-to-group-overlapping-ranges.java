@@ -7,11 +7,7 @@ class Solution {
         return 1;
      }
      if(dp[i]!=-1) return dp[i];
-     int choose =0;
-     int skip=0;
-     choose = recurse(i+1);
-     skip = recurse(i+1);
-     return dp[i]= (choose + skip)  % mod;
+     return dp[i]= (2 *  recurse(i+1) )  % mod;
     }
     public int countWays(int[][] ranges) {
       int count= 0;
