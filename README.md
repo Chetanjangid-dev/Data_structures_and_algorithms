@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2226-maximum-candies-allocated-to-k-children) |
 | [2563-count-the-number-of-fair-pairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2563-count-the-number-of-fair-pairs) |
+| [2580-count-ways-to-group-overlapping-ranges](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2580-count-ways-to-group-overlapping-ranges) |
 | [2602-minimum-operations-to-make-all-array-elements-equal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2602-minimum-operations-to-make-all-array-elements-equal) |
 | [2905-find-indices-with-index-and-value-difference-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2905-find-indices-with-index-and-value-difference-ii) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
@@ -401,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [2165-smallest-value-of-the-rearranged-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2165-smallest-value-of-the-rearranged-number) |
 | [2563-count-the-number-of-fair-pairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2563-count-the-number-of-fair-pairs) |
+| [2580-count-ways-to-group-overlapping-ranges](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2580-count-ways-to-group-overlapping-ranges) |
 | [2602-minimum-operations-to-make-all-array-elements-equal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2602-minimum-operations-to-make-all-array-elements-equal) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 ## Math
