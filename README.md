@@ -626,6 +626,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0143-reorder-list) |
+| [0155-min-stack](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0234-palindrome-linked-list) |
 | [0735-asteroid-collision](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0735-asteroid-collision) |
 | [0901-online-stock-span](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0901-online-stock-span) |
@@ -699,6 +700,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0155-min-stack) |
 | [0295-find-median-from-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0901-online-stock-span](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0901-online-stock-span) |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2526-find-consecutive-integers-from-a-data-stream) |
