@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2563-count-the-number-of-fair-pairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2580-count-ways-to-group-overlapping-ranges](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2580-count-ways-to-group-overlapping-ranges) |
 | [2602-minimum-operations-to-make-all-array-elements-equal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2602-minimum-operations-to-make-all-array-elements-equal) |
+| [2747-count-zero-request-servers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2747-count-zero-request-servers) |
 | [2905-find-indices-with-index-and-value-difference-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2905-find-indices-with-index-and-value-difference-ii) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 | [3508-implement-router](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3508-implement-router) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1124-longest-well-performing-interval](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1124-longest-well-performing-interval) |
 | [1189-maximum-number-of-balloons](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1189-maximum-number-of-balloons) |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2526-find-consecutive-integers-from-a-data-stream) |
+| [2747-count-zero-request-servers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2747-count-zero-request-servers) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 | [3508-implement-router](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3508-implement-router) |
 ## Depth-First Search
@@ -405,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2563-count-the-number-of-fair-pairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2580-count-ways-to-group-overlapping-ranges](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2580-count-ways-to-group-overlapping-ranges) |
 | [2602-minimum-operations-to-make-all-array-elements-equal](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2602-minimum-operations-to-make-all-array-elements-equal) |
+| [2747-count-zero-request-servers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2747-count-zero-request-servers) |
 | [3039-apply-operations-to-make-string-empty](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/3039-apply-operations-to-make-string-empty) |
 ## Math
 |  |
@@ -517,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1004-max-consecutive-ones-iii) |
 | [1234-replace-the-substring-for-balanced-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1234-replace-the-substring-for-balanced-string) |
+| [2747-count-zero-request-servers](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2747-count-zero-request-servers) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 ## Prefix Sum
 |  |
