@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1200-minimum-absolute-difference) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
+| [1626-best-team-with-no-conflicts](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1626-best-team-with-no-conflicts) |
 | [1631-path-with-minimum-effort](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1631-path-with-minimum-effort) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -403,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0973-k-closest-points-to-origin) |
 | [1200-minimum-absolute-difference](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1200-minimum-absolute-difference) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
+| [1626-best-team-with-no-conflicts](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1626-best-team-with-no-conflicts) |
 | [2165-smallest-value-of-the-rearranged-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2165-smallest-value-of-the-rearranged-number) |
 | [2563-count-the-number-of-fair-pairs](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2580-count-ways-to-group-overlapping-ranges](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2580-count-ways-to-group-overlapping-ranges) |
@@ -606,6 +608,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0907-sum-of-subarray-minimums) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0918-maximum-sum-circular-subarray) |
 | [1143-longest-common-subsequence](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1143-longest-common-subsequence) |
+| [1626-best-team-with-no-conflicts](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1626-best-team-with-no-conflicts) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [2320-count-number-of-ways-to-place-houses](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/2320-count-number-of-ways-to-place-houses) |
 ## Queue
@@ -931,4 +934,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0319-bulb-switcher](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0319-bulb-switcher) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [1626-best-team-with-no-conflicts](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1626-best-team-with-no-conflicts) |
 <!---LeetCode Topics End-->
