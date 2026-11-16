@@ -469,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0387-first-unique-character-in-a-string) |
+| [0402-remove-k-digits](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0409-longest-palindrome) |
 | [0412-fizz-buzz](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0412-fizz-buzz) |
 | [0424-longest-repeating-character-replacement](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0424-longest-repeating-character-replacement) |
@@ -494,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0179-largest-number) |
+| [0402-remove-k-digits](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0409-longest-palindrome) |
 | [0410-split-array-largest-sum](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0455-assign-cookies) |
@@ -635,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0402-remove-k-digits) |
 | [0735-asteroid-collision](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0735-asteroid-collision) |
 | [0901-online-stock-span](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0907-sum-of-subarray-minimums) |
@@ -851,6 +854,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0042-trapping-rain-water) |
+| [0402-remove-k-digits](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0402-remove-k-digits) |
 | [0901-online-stock-span](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/0907-sum-of-subarray-minimums) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Chetanjangid-dev/Data_structures_and_algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
